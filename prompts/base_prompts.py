@@ -320,109 +320,30 @@ def get_merge_prompt(
 
 def get_single_pass_prompt(page_num: int, total_pages: int, firm_examples: str = "") -> str:
     """
-    Alternative: Single-pass extraction for simple pages.
-    
-    Use this for pages that don't require spatial decomposition.
+    Natural language extraction prompt.
     
     Args:
         page_num: Current page number
         total_pages: Total pages in document
-        firm_examples: Firm-specific few-shot examples
+        firm_examples: Firm-specific notation guides
         
     Returns:
-        Prompt for single-pass extraction
+        Prompt for natural language extraction
     """
-    prompt = f"""You are analyzing page {page_num} of {total_pages} from a construction sitework document.
+    prompt = f"""You are a construction sitework estimator with a degree in civil engineering and you are analyzing a construction drawing from Hagen Engineering.
+
+This is page {page_num} of {total_pages}.
 
 {firm_examples}
 
-**YOUR TASK**: Extract ALL structured construction data from this page.
+Analyze this drawing and extract all construction data you see. Include:
 
-**METHOD - CHAIN OF THOUGHT**:
+- All pipes (diameter, material, type, connections, lengths, depths, elevations)
+- All structures (manholes, catch basins, IDs, elevations)
+- All earthwork and grading information
+- Measurements and quantities
 
-1. **Visual Analysis**
-   - What type of drawing is this?
-   - What utilities and structures are shown?
-   - Layout and organization?
-
-2. **Notation Recognition**
-   - Identify abbreviations and symbols
-   - Match to firm-specific patterns
-   - Use construction knowledge for unfamiliar terms
-
-3. **Systematic Extraction**
-   - Extract all pipes with measurements
-   - Extract all structures with elevations
-   - Extract all earthwork/grading data
-   - Note all quantities
-
-4. **Relationship Mapping**
-   - Connect pipes to structures
-   - Identify system flows (invert directions)
-   - Cross-reference plan and profile
-
-5. **Verification**
-   - Did I capture everything visible?
-   - Are measurements complete and consistent?
-   - Do connections make sense?
-
----
-
-**OUTPUT FORMAT** (Structured Markdown):
-
-# Page {page_num} Extraction
-
-## Document Type
-[Plan / Profile / Grading / Multi-view / etc.]
-
-## Pipes
-### [Discipline] Pipe 1
-- Diameter: [X] inches
-- Material: [PVC/DIP/etc.]
-- Discipline: [Sanitary/Storm/Water]
-- Type: [Pipe/Lateral/Vertical]
-- From: [Structure or location]
-- To: [Structure or location]
-- Invert In: [X] ft
-- Invert Out: [X] ft
-- Length: [X] LF
-- Depth: [X] ft
-
-[Repeat for ALL pipes]
-
-## Structures
-### [Type] 1: [ID]
-- ID: [Structure identifier]
-- Type: [Manhole/Catch Basin/etc.]
-- Discipline: [Sanitary/Storm/Water]
-- Rim Elevation: [X] ft
-- Invert Elevation: [X] ft
-- Depth: [X] ft
-
-[Repeat for ALL structures]
-
-## Earthwork
-### Item 1
-- Type: [Site Grading/Trench/Cut/Fill]
-- Volume: [X] cubic yards
-- Depth: [X] ft
-- Purpose: [Description]
-
-[Repeat for ALL earthwork]
-
-## Summary
-- Total Pipes: [count]
-- Total Structures: [count]
-- Total Earthwork: [count]
-
----
-
-**CRITICAL RULES**:
-- Extract EVERYTHING visible
-- Include ALL measurements
-- Use firm-specific notation patterns
-- Mark uncertainties clearly [UNCERTAIN: reason]
-- Maintain structured markdown format
+Be thorough and precise. Use your civil engineering knowledge to interpret the drawing.
 """
     return prompt
 

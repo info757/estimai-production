@@ -1,0 +1,295 @@
+# Ground Truth - Dawn Ridge Homes
+
+## Pipes
+
+### Pipe 1: 8" DIP
+- Diameter: 8 inches
+- Material: DIP
+- Discipline: sanitary
+- Type: Pipe
+- Length: 177.67 LF
+- Depth: 9.2 ft
+- Count: 1.0
+
+### Pipe 2: 8" PVC
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: sanitary
+- Type: Pipe
+- Length: 806.01 LF
+- Depth: 9.0 ft
+- Count: 1.0
+
+### Pipe 3: 4" SS Service
+- Diameter: 4 inches
+- Material: Unknown
+- Discipline: sanitary
+- Type: Lateral
+- Length: 816.96 LF
+- Depth: 6.1 ft
+- Count: 26.0
+
+### Pipe 4: 4" SSL Cleanout
+- Diameter: 4 inches
+- Material: Unknown
+- Discipline: sanitary
+- Type: Vertical
+- Length: 0 LF
+- Depth: 4.0 ft
+- Count: 26.0
+
+### Pipe 5: Existing SSMH
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: sanitary
+- Type: Vertical
+- Length: 0 LF
+- Depth: 4.9 ft
+- Count: 1.0
+
+### Pipe 6: SSMH
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: sanitary
+- Type: Vertical
+- Length: 0 LF
+- Depth: 8.6 ft
+- Count: 8.0
+
+### Pipe 7: 12" Corrugated HDPE
+- Diameter: 12 inches
+- Material: HDPE
+- Discipline: storm
+- Type: Pipe
+- Length: 125.84 LF
+- Depth: 2.9 ft
+- Count: 1.0
+
+### Pipe 8: 15" Corrugated HDPE
+- Diameter: 15 inches
+- Material: HDPE
+- Discipline: storm
+- Type: Pipe
+- Length: 746.8 LF
+- Depth: 4.4 ft
+- Count: 2.0
+
+### Pipe 9: 15" RCP
+- Diameter: 15 inches
+- Material: RCP
+- Discipline: storm
+- Type: Pipe
+- Length: 1260.21 LF
+- Depth: 5.2 ft
+- Count: 6.0
+
+### Pipe 10: 18" RCP
+- Diameter: 18 inches
+- Material: RCP
+- Discipline: storm
+- Type: Pipe
+- Length: 177.31 LF
+- Depth: 4.9 ft
+- Count: 1.0
+
+### Pipe 11: 24" RCP
+- Diameter: 24 inches
+- Material: RCP
+- Discipline: storm
+- Type: Pipe
+- Length: 382.98 LF
+- Depth: 6.7 ft
+- Count: 1.0
+
+### Pipe 12: 24" Single Offset Gasket RCP
+- Diameter: 24 inches
+- Material: RCP
+- Discipline: storm
+- Type: Pipe
+- Length: 49.34 LF
+- Depth: 3.7 ft
+- Count: 1.0
+
+### Pipe 13: 30" RCP
+- Diameter: 30 inches
+- Material: RCP
+- Discipline: storm
+- Type: Pipe
+- Length: 47.46 LF
+- Depth: 4.8 ft
+- Count: 1.0
+
+### Pipe 14: 48" RCP
+- Diameter: 48 inches
+- Material: RCP
+- Discipline: storm
+- Type: Pipe
+- Length: 167.01 LF
+- Depth: 13.8 ft
+- Count: 1.0
+
+### Pipe 15: NCDOT 840.02 Concrete Catch Basin
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Vertical
+- Length: 0 LF
+- Depth: 4.6 ft
+- Count: 14.0
+
+### Pipe 16: NCDOT 840.14 Drop Inlet
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Vertical
+- Length: 0 LF
+- Depth: 4.8 ft
+- Count: 18.0
+
+### Pipe 17: NCDOT 840.53 Manhole
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Vertical
+- Length: 0 LF
+- Depth: 8.7 ft
+- Count: 2.0
+
+### Pipe 18: Outlet Control Structure
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Vertical
+- Length: 0 LF
+- Depth: 0.1 ft
+- Count: 1.0
+
+### Pipe 19: 15" FES
+- Diameter: 15 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Fitting
+- Length: 0 LF
+- Depth: 0 ft
+- Count: 1.0
+
+### Pipe 20: 24" FES
+- Diameter: 24 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Fitting
+- Length: 0 LF
+- Depth: 0 ft
+- Count: 1.0
+
+### Pipe 21: 30" FES
+- Diameter: 30 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Fitting
+- Length: 0 LF
+- Depth: 0 ft
+- Count: 1.0
+
+### Pipe 22: 48" FES
+- Diameter: 48 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Fitting
+- Length: 0 LF
+- Depth: 0 ft
+- Count: 2.0
+
+### Pipe 23: Antiseep Collars w/watertight joints
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: storm
+- Type: Fitting
+- Length: 0 LF
+- Depth: 0 ft
+- Count: 2.0
+
+### Pipe 24: 8" DIP
+- Diameter: 8 inches
+- Material: DIP
+- Discipline: water
+- Type: Pipe
+- Length: 1075.66 LF
+- Depth: 4.0 ft
+- Count: 3.0
+
+### Pipe 25: 6" Fire Lateral
+- Diameter: 6 inches
+- Material: Unknown
+- Discipline: water
+- Type: Lateral
+- Length: 42.48 LF
+- Depth: 3.7 ft
+- Count: 3.0
+
+### Pipe 26: Copper Service to meter
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: water
+- Type: Lateral
+- Length: 876.61 LF
+- Depth: 3.8 ft
+- Count: 26.0
+
+### Pipe 27: 6" Hydrant Assemby
+- Diameter: 6 inches
+- Material: Unknown
+- Discipline: water
+- Type: Vertical
+- Length: 0 LF
+- Depth: 3.7 ft
+- Count: 3.0
+
+### Pipe 28: 8" Gate Valve
+- Diameter: 8 inches
+- Material: Unknown
+- Discipline: water
+- Type: Fitting
+- Length: 0 LF
+- Depth: 0 ft
+- Count: 3.0
+
+### Pipe 29: Tie into Existing
+- Diameter: 0 inches
+- Material: Unknown
+- Discipline: water
+- Type: Fitting
+- Length: 0 LF
+- Depth: 0 ft
+- Count: 1.0
+
+**Total Pipes: 29**
+
+## Expected Materials
+
+- {'item': 'Construction Entrance', 'description': 'Construction Entrance', 'phase': 'Phase 1 EC', 'category': 'Erosion Control', 'quantity': 2996.86, 'unit': 'SY'}
+- {'item': 'Block and Gravel Inlet Protection', 'description': 'Block and Gravel Inlet Protection', 'phase': 'Phase 2 EC', 'category': 'Erosion Control', 'quantity': 32.0, 'unit': 'EA'}
+- {'item': 'Sediment Tube Inlet Protection', 'description': 'Sediment Tube Inlet Protection', 'phase': 'Phase 2 EC', 'category': 'Erosion Control', 'quantity': 14.0, 'unit': 'EA'}
+- {'item': 'Concrete Washout', 'description': 'Concrete Washout', 'phase': 'Phase 1 EC', 'category': 'Erosion Control', 'quantity': 1.0, 'unit': 'EA'}
+- {'item': 'Ditch Matting - SC140', 'description': 'Ditch Matting - SC140', 'phase': 'Phase 1 EC', 'category': 'Erosion Control', 'quantity': 18046.2, 'unit': 'SY'}
+- {'item': 'Slope Matting', 'description': 'Slope Matting', 'phase': 'Phase 2 EC', 'category': 'Erosion Control', 'quantity': 117238.44, 'unit': 'SY'}
+- {'item': 'Grassing/Seeding', 'description': 'Grassing/Seeding', 'phase': 'Phase 2 EC', 'category': 'Erosion Control', 'quantity': 295025.37, 'unit': 'AC'}
+- {'item': '3" Skimmer', 'description': '3" Skimmer', 'phase': 'Phase 1 EC', 'category': 'Erosion Control', 'quantity': 1.0, 'unit': 'EA'}
+- {'item': 'Baffles', 'description': 'Baffles', 'phase': 'Phase 1 EC', 'category': 'Erosion Control', 'quantity': 224.99, 'unit': 'LF'}
+- {'item': 'Fencing around Wet Pond', 'description': 'Fencing around Wet Pond', 'phase': '', 'category': 'Fence Installation', 'quantity': 621.75, 'unit': 'LF'}
+- {'item': 'Retaining Wall Fencing', 'description': 'Retaining Wall Fencing', 'phase': '', 'category': 'Fence Installation', 'quantity': 490.13, 'unit': 'LF'}
+- {'item': 'Retaining Wall along Northern Perimeter', 'description': 'Retaining Wall along Northern Perimeter', 'phase': '', 'category': 'Retaining Wall', 'quantity': 384.5, 'unit': 'LF'}
+- {'item': 'Retaining wall at Eastern cul de sac', 'description': 'Retaining wall at Eastern cul de sac', 'phase': '', 'category': 'Retaining Wall', 'quantity': 103.95, 'unit': 'LF'}
+
+## Expected Volumes
+
+- {'name': 'Jobsite', 'type': 'Earthwork', 'total_area': 429339.0, 'cut_area': 203030.0, 'fill_area': 217848.0, 'cut_volume': 60523.0, 'fill_volume': 54747.0}
+- {'name': 'Regions Total:', 'type': 'Earthwork', 'total_area': 429339.0, 'cut_area': 203030.0, 'fill_area': 217848.0, 'cut_volume': 60523.0, 'fill_volume': 54747.0}
+- {'name': 'Topsoil', 'type': 'Stripping', 'total_area': 429339.0, 'cut_area': 436949.0, 'fill_area': 0.667, 'cut_volume': 10794.0, 'fill_volume': 0}
+- {'name': 'Stripping Total', 'type': 'Stripping', 'total_area': 429339.0, 'cut_area': 436949.0, 'fill_area': 0, 'cut_volume': 10794.0, 'fill_volume': 0}
+- {'name': '3/7 Asphalt', 'type': 'Sectional', 'total_area': 40797.0, 'cut_area': 40823.0, 'fill_area': 0.833, 'cut_volume': 1259.0, 'fill_volume': 0}
+- {'name': 'Bldg Sub:', 'type': 'Sectional', 'total_area': 72999.0, 'cut_area': 72999.0, 'fill_area': 0.0, 'cut_volume': 0.0, 'fill_volume': 0}
+- {'name': 'Curb', 'type': 'Sectional', 'total_area': 9642.0, 'cut_area': 9649.0, 'fill_area': 0.917, 'cut_volume': 328.0, 'fill_volume': 0}
+- {'name': 'Greenspace', 'type': 'Sectional', 'total_area': 300122.0, 'cut_area': 311573.0, 'fill_area': 0.333, 'cut_volume': 3843.0, 'fill_volume': 0}
+- {'name': 'SIDEWALK Sub:', 'type': 'Sectional', 'total_area': 5779.0, 'cut_area': 5809.0, 'fill_area': 0.333, 'cut_volume': 71.0, 'fill_volume': 0}
+- {'name': 'Sectional Total', 'type': 'Sectional', 'total_area': 429339.0, 'cut_area': 440853.0, 'fill_area': 0, 'cut_volume': 5501.0, 'fill_volume': 0}

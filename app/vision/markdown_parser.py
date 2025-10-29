@@ -67,6 +67,7 @@ class MarkdownParser:
         
         # Split into individual pipe blocks (### headers)
         pipe_blocks = re.split(r'###\s+', pipes_section)[1:]  # Skip first empty split
+        logger.info(f"Found {len(pipe_blocks)} pipe blocks to parse")
         
         for block in pipe_blocks:
             try:
@@ -249,7 +250,7 @@ class MarkdownParser:
             Section content or None
         """
         # Match ## Section until next ## or end
-        pattern = rf'##\s+{re.escape(section_name)}(.*?)(?=\n##|\Z)'
+        pattern = rf'##\s+{re.escape(section_name)}\s*\n(.*?)(?=\n##|\Z)'
         match = re.search(pattern, markdown, re.DOTALL | re.IGNORECASE)
         
         if match:

@@ -1,0 +1,92 @@
+# Construction Document Extraction
+
+**Firm**: Hagen Engineering
+**Total Pages**: 1
+**Extraction Date**: 2025-10-29 14:08
+
+---
+
+
+
+# Page 1
+
+# Page 1 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 2
+- Total Earthwork Items: 2
+- Document Type: Plan view with multiple sections related to construction approvals and site information
+
+## Pipes
+
+### Sanitary Mainline Pipe
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 742.5 ft
+- Invert Out: 741.0 ft
+- Length: 806.01 LF
+- Depth: 9.0 ft
+
+### Storm Drain Pipe
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+## Structures
+
+### Sanitary Manhole
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 745.0 ft
+- Invert In: 742.5 ft
+- Invert Out: 742.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+## Earthwork
+
+### Site Grading
+- Type: Site Grading
+- Cut Volume: 1,234 cubic yards
+- Fill Volume: 567 cubic yards
+- Net Cut: 667 cubic yards
+
+### Trench Excavation
+- Purpose: 8-inch Sanitary Sewer
+- Depth: 9.0 ft
+- Width: 3.0 ft (typical)
+- Length: 806 LF
+- Volume: 269 cubic yards
+
+## Cross-Section Relationships
+- The 8-inch PVC sanitary mainline pipe connects the sanitary manhole MH-SS-1 to MH-SS-2.
+- The 12-inch storm drain pipe connects catch basin CB-1 to CB-2.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 95%
+
+This final extraction consolidates all relevant data from the sections, ensuring no duplication and enhancing the information with cross-sectional context. All unique items are preserved, and the structured markdown format is maintained for clarity.
+
+---

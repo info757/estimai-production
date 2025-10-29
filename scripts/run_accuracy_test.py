@@ -13,6 +13,10 @@ import logging
 from pathlib import Path
 from typing import Dict, List, Any
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -121,7 +125,10 @@ async def run_accuracy_test():
     logger.info("CUSTOM CONSTRUCTION METRICS")
     logger.info("="*80)
     
-    custom_results = evaluate_takeoff_custom(predicted_data, ground_truth)
+    # Create dummy retrieved contexts for evaluation
+    retrieved_contexts = [results["markdown"][:1000]]  # Use first 1000 chars of extraction
+    
+    custom_results = evaluate_takeoff_custom(predicted_data, ground_truth, retrieved_contexts)
     
     logger.info(f"\nAccuracy Results:")
     logger.info(f"  - Pipe Count Accuracy: {custom_results['pipe_count_accuracy']:.1%}")

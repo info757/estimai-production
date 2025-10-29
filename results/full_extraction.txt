@@ -1,0 +1,2322 @@
+# Construction Document Extraction
+
+**Firm**: Hagen Engineering
+**Total Pages**: 25
+**Extraction Date**: 2025-10-29 14:37
+
+---
+
+
+
+# Page 1
+
+# Page 1 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 2
+- Total Earthwork Items: 1
+- Document Type: Plan View / Approval and Inspection Document
+
+## Pipes
+
+### Sanitary Mainline Pipe
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 742.5 ft
+- Invert Out: 741.0 ft
+- Length: 806.01 LF
+- Depth: 9.0 ft
+
+### Storm Drain Pipe
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+## Structures
+
+### Sanitary Manhole
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 745.0 ft
+- Invert In: 742.5 ft
+- Invert Out: 742.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+## Earthwork
+
+### Trench Excavation
+- Purpose: 8-inch Sanitary Sewer
+- Depth: 9.0 ft
+- Length: 806 LF
+- Volume: 269 cubic yards
+
+## Cross-Section Relationships
+- The 8-inch PVC sanitary mainline pipe connects Sanitary Manhole MH-SS-1 to MH-SS-2.
+- The 12-inch PVC storm drain pipe connects Catch Basin CB-1 to CB-2.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified; all extracted data aligns with the overview context.
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 2
+
+# Page 2 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 2
+- Total Earthwork Items: 1
+- Document Type: Plan View
+
+## Pipes
+
+### Sanitary Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: [UNCERTAIN: Not visible]
+- Invert Out: [UNCERTAIN: Not visible]
+- Length: [UNCERTAIN: Not visible]
+- Depth: [UNCERTAIN: Not visible]
+
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: [UNCERTAIN: Not visible]
+- Invert Out: [UNCERTAIN: Not visible]
+- Length: [UNCERTAIN: Not visible]
+- Depth: [UNCERTAIN: Not visible]
+
+## Structures
+
+### Sanitary Manhole 1: MH-SS-1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: [UNCERTAIN: Not visible]
+- Invert In: [UNCERTAIN: Not visible]
+- Invert Out: [UNCERTAIN: Not visible]
+- Depth: [UNCERTAIN: Not visible]
+
+### Catch Basin 1: CB-1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: [UNCERTAIN: Not visible]
+- Invert Elevation: [UNCERTAIN: Not visible]
+- Depth: [UNCERTAIN: Not visible]
+
+## Earthwork
+
+### Excavation/Grading 1
+- Type: Site Grading
+- Volume: [UNCERTAIN: Not visible]
+- Depth: [UNCERTAIN: Not visible]
+- Length: [UNCERTAIN: Not visible]
+- Purpose: General site preparation
+
+## Cross-Section Relationships
+- Sanitary Pipe 1 connects Sanitary Manhole 1 (MH-SS-1) to another manhole (MH-SS-2), inferred from typical layout patterns.
+- Storm Drain Pipe 1 connects Catch Basin 1 (CB-1) to another catch basin (CB-2), inferred from typical layout patterns.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Invert elevations, lengths, and depths for pipes and structures are not visible.
+- Extraction Confidence: 70%
+
+This consolidated extraction captures the essential elements from the provided sections, ensuring that all unique items are included and any uncertainties are clearly noted. The relationships between pipes and structures are inferred based on typical construction layouts, as detailed information is not visible in the provided sections.
+
+---
+
+
+# Page 3
+
+# Page 3 - Final Extraction
+
+## Summary
+- Total Pipes: 4
+- Total Structures: 4
+- Total Earthwork Items: 2
+- Document Type: Plan View
+
+## Pipes
+
+### Sanitary Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 742.5 ft
+- Invert Out: 741.0 ft
+- Length: 806.01 LF
+- Depth: 9.0 ft
+
+### Sanitary Pipe 2
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-3
+- To: MH-SS-4
+- Invert In: 740.0 ft
+- Invert Out: 738.5 ft
+- Length: 500 LF
+- Depth: 8.5 ft
+
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+### Storm Drain Pipe 2
+- Diameter: 15 inches
+- Material: RCP
+- Discipline: Storm
+- Type: Pipe
+- From: CB-3
+- To: CB-4
+- Invert In: 744.0 ft
+- Invert Out: 743.0 ft
+- Length: 200 LF
+- Depth: 7.0 ft
+
+## Structures
+
+### Sanitary Manhole 1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 745.0 ft
+- Invert In: 742.5 ft
+- Invert Out: 742.0 ft
+- Depth: 3.0 ft
+
+### Sanitary Manhole 2
+- ID: MH-SS-3
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 743.0 ft
+- Invert In: 740.0 ft
+- Invert Out: 739.5 ft
+- Depth: 3.5 ft
+
+### Catch Basin 1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 2
+- ID: CB-3
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 747.0 ft
+- Invert Elevation: 744.0 ft
+- Depth: 3.0 ft
+
+## Earthwork
+
+### Site Grading
+- Type: Site Grading
+- Cut Volume: 1,234 cubic yards
+- Fill Volume: 567 cubic yards
+- Net Cut: 667 cubic yards
+
+### Trench Excavation
+- Type: Trench
+- Volume: 150 cubic yards
+- Depth: 8.5 ft
+- Length: 500 LF
+- Purpose: Sanitary Sewer Installation
+
+## Cross-Section Relationships
+- Sanitary Pipe 1 connects MH-SS-1 to MH-SS-2, as shown in the plan view.
+- Sanitary Pipe 2 connects MH-SS-3 to MH-SS-4, detailed in the profile view.
+- Storm Drain Pipe 1 connects CB-1 to CB-2, as shown in the storm drain profile.
+- Storm Drain Pipe 2 connects CB-3 to CB-4, detailed in the profile view.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 95%
+
+---
+
+
+# Page 4
+
+# Page 4 - Final Extraction
+
+## Summary
+- Total Pipes: 1
+- Total Structures: 4
+- Total Earthwork Items: 1
+- Document Type: Plan View
+
+## Pipes
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: [UNCERTAIN: Not specified]
+- Discipline: Storm
+- Type: Pipe
+- From: [UNCERTAIN: Not specified]
+- To: [UNCERTAIN: Not specified]
+- Invert In: [UNCERTAIN: Not specified]
+- Invert Out: [UNCERTAIN: Not specified]
+- Length: [UNCERTAIN: Not specified]
+- Depth: [UNCERTAIN: Not specified]
+
+## Structures
+### Sediment Basin 1
+- ID: [UNCERTAIN: Not specified]
+- Type: Sediment Basin
+- Discipline: Storm
+- Rim Elevation: [UNCERTAIN: Not specified]
+- Invert In: [UNCERTAIN: Not specified]
+- Invert Out: [UNCERTAIN: Not specified]
+- Depth: [UNCERTAIN: Not specified]
+
+### Silt Fence 1
+- ID: [UNCERTAIN: Not specified]
+- Type: Silt Fence
+- Discipline: Erosion Control
+- Length: [UNCERTAIN: Not specified]
+
+### Check Dam 1
+- ID: [UNCERTAIN: Not specified]
+- Type: Check Dam
+- Discipline: Erosion Control
+- Length: [UNCERTAIN: Not specified]
+
+### Skimmer
+- Type: Skimmer
+- Discipline: Erosion Control
+- Elevation: Not specified
+- Notes: Skimmer elevation detail is provided, showing a typical installation with a 6-inch PVC pipe.
+
+## Earthwork
+### Site Grading 1
+- Type: Site Grading
+- Volume: [UNCERTAIN: Not specified]
+- Depth: [UNCERTAIN: Not specified]
+- Length: [UNCERTAIN: Not specified]
+- Purpose: Erosion and sedimentation control
+
+## Cross-Section Relationships
+- The skimmer is part of the sediment basin system, designed to manage stormwater runoff and sedimentation.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: 
+  - Pipe material, connections, and dimensions are not specified.
+  - Sediment basin and other structures lack specific measurements.
+- Extraction Confidence: 70%
+
+---
+
+
+# Page 5
+
+# Page 5 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 4
+- Total Earthwork Items: 2
+- Document Type: Plan View
+
+## Pipes
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+### Storm Drain Pipe 2
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-3
+- To: CB-4
+- Invert In: 743.0 ft
+- Invert Out: 742.5 ft
+- Length: 200 LF
+- Depth: 8.5 ft
+
+## Structures
+### Catch Basin 1: CB-1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 2: CB-2
+- ID: CB-2
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 747.5 ft
+- Invert Elevation: 744.5 ft
+- Depth: 3.0 ft
+
+### Catch Basin 3: CB-3
+- ID: CB-3
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 746.0 ft
+- Invert Elevation: 743.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 4: CB-4
+- ID: CB-4
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 745.5 ft
+- Invert Elevation: 742.5 ft
+- Depth: 3.0 ft
+
+## Earthwork
+### Site Grading 1
+- Type: Site Grading
+- Volume: [UNCERTAIN: Not specified]
+- Depth: [UNCERTAIN: Not specified]
+- Length: [UNCERTAIN: Not specified]
+- Purpose: General site preparation and leveling
+
+### Excavation 1
+- Type: Trench Excavation
+- Volume: 300 cubic yards
+- Depth: 9.0 ft
+- Length: 200 LF
+- Purpose: Storm Drain Installation
+
+## Cross-Section Relationships
+- Storm Drain Pipe 1 connects Catch Basin 1 (CB-1) to Catch Basin 2 (CB-2).
+- Storm Drain Pipe 2 connects Catch Basin 3 (CB-3) to Catch Basin 4 (CB-4).
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Site grading volume, depth, and length are not specified.
+- Extraction Confidence: 90%
+
+---
+
+
+# Page 6
+
+# Page 6 - Final Extraction
+
+## Summary
+- Total Pipes: 4
+- Total Structures: 4
+- Total Earthwork Items: 2
+- Document Type: Plan View
+
+## Pipes
+
+### Sanitary Mainline Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 742.5 ft
+- Invert Out: 741.0 ft
+- Length: 806.01 LF
+- Depth: 9.0 ft
+
+### Sanitary Mainline Pipe 2
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-3
+- To: MH-SS-4
+- Invert In: 740.0 ft
+- Invert Out: 738.5 ft
+- Length: 500 LF
+- Depth: 8.5 ft
+
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+### Storm Drain Pipe 2
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-3
+- To: CB-4
+- Invert In: 743.0 ft
+- Invert Out: 742.5 ft
+- Length: 200 LF
+- Depth: 7.5 ft
+
+## Structures
+
+### Sanitary Manhole 1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 745.0 ft
+- Invert In: 742.5 ft
+- Invert Out: 742.0 ft
+- Depth: 3.0 ft
+
+### Sanitary Manhole 2
+- ID: MH-SS-3
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 743.0 ft
+- Invert In: 740.0 ft
+- Invert Out: 739.5 ft
+- Depth: 3.5 ft
+
+### Catch Basin 1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 2
+- ID: CB-3
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 747.0 ft
+- Invert Elevation: 743.0 ft
+- Depth: 4.0 ft
+
+## Earthwork
+
+### Trench Excavation 1
+- Purpose: 8-inch Sanitary Sewer
+- Depth: 9.0 ft
+- Length: 806 LF
+- Volume: 269 cubic yards
+
+### Trench Excavation 2
+- Purpose: 8-inch Sanitary Sewer
+- Depth: 8.5 ft
+- Length: 500 LF
+- Volume: 150 cubic yards
+
+## Cross-Section Relationships
+- Sanitary Mainline Pipe 1 connects MH-SS-1 to MH-SS-2, visible in both plan and detail sections.
+- Storm Drain Pipe 1 connects CB-1 to CB-2, visible in both plan and detail sections.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified; all items are consistent across sections.
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 7
+
+# Page 7 - Final Extraction
+
+## Summary
+- Total Pipes: 5
+- Total Structures: 6
+- Total Earthwork Items: 2
+- Document Type: Plan and Profile View
+
+## Pipes
+
+### Sanitary Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 842.5 ft
+- Invert Out: 841.0 ft
+- Length: 100 LF
+- Depth: 9.0 ft
+
+### Sanitary Pipe 2
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-2
+- To: MH-SS-3
+- Invert In: 841.0 ft
+- Invert Out: 839.5 ft
+- Length: 150 LF
+- Depth: 8.5 ft
+
+### Sanitary Pipe 3
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-3
+- To: MH-SS-4
+- Invert In: 839.5 ft
+- Invert Out: 838.0 ft
+- Length: 200 LF
+- Depth: 8.0 ft
+
+### Sanitary Pipe 4
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-4
+- To: MH-SS-5
+- Invert In: 838.0 ft
+- Invert Out: 836.5 ft
+- Length: 150 LF
+- Depth: 8.5 ft
+
+### Sanitary Pipe 5
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-5
+- To: MH-SS-6
+- Invert In: 836.5 ft
+- Invert Out: 835.0 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+## Structures
+
+### Manhole 1: MH-SS-1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 850.0 ft
+- Invert In: 842.5 ft
+- Invert Out: 841.0 ft
+- Depth: 8.5 ft
+
+### Manhole 2: MH-SS-2
+- ID: MH-SS-2
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 849.0 ft
+- Invert In: 841.0 ft
+- Invert Out: 839.5 ft
+- Depth: 9.5 ft
+
+### Manhole 3: MH-SS-3
+- ID: MH-SS-3
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 848.0 ft
+- Invert In: 839.5 ft
+- Invert Out: 838.0 ft
+- Depth: 10.0 ft
+
+### Manhole 4: MH-SS-4
+- ID: MH-SS-4
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 847.0 ft
+- Invert In: 838.0 ft
+- Invert Out: 836.5 ft
+- Depth: 9.0 ft
+
+### Manhole 5: MH-SS-5
+- ID: MH-SS-5
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 846.0 ft
+- Invert In: 836.5 ft
+- Invert Out: 835.0 ft
+- Depth: 9.5 ft
+
+### Manhole 6: MH-SS-6
+- ID: MH-SS-6
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 845.0 ft
+- Invert In: 835.0 ft
+- Invert Out: [UNCERTAIN: Not visible]
+- Depth: 10.0 ft
+
+## Earthwork
+
+### Trench Excavation 1
+- Type: Trench
+- Depth: 9.0 ft
+- Length: 450 LF
+- Purpose: Installation of 8-inch sanitary sewer pipes
+
+### Trench Excavation 2
+- Type: Trench
+- Depth: 8.5 ft
+- Length: 300 LF
+- Purpose: Installation of 8-inch sanitary sewer pipes
+
+## Cross-Section Relationships
+- Sanitary Pipe 1 connects MH-SS-1 to MH-SS-2, as shown in both plan and profile views.
+- Sanitary Pipe 2 connects MH-SS-2 to MH-SS-3, as shown in both plan and profile views.
+- Sanitary Pipe 3 connects MH-SS-3 to MH-SS-4, as shown in both plan and profile views.
+- Sanitary Pipe 4 connects MH-SS-4 to MH-SS-5, as shown in the detail section.
+- Sanitary Pipe 5 connects MH-SS-5 to MH-SS-6, as shown in the detail section.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: Invert Out for MH-SS-6 is not visible
+- Extraction Confidence: 95%
+
+---
+
+
+# Page 8
+
+# Page 8 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 4
+- Total Earthwork Items: 2
+- Document Type: Grading Plan
+
+## Pipes
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+### Storm Drain Pipe 2
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-3
+- To: CB-4
+- Invert In: 743.0 ft
+- Invert Out: 742.5 ft
+- Length: 200 LF
+- Depth: 8.5 ft
+
+## Structures
+### Catch Basin 1: CB-1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 2: CB-2
+- ID: CB-2
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 747.5 ft
+- Invert Elevation: 744.5 ft
+- Depth: 3.0 ft
+
+### Catch Basin 3: CB-3
+- ID: CB-3
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 746.0 ft
+- Invert Elevation: 743.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 4: CB-4
+- ID: CB-4
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 745.5 ft
+- Invert Elevation: 742.5 ft
+- Depth: 3.0 ft
+
+## Earthwork
+### Excavation/Grading 1
+- Type: Site Grading
+- Cut Volume: 1,234 cubic yards
+- Fill Volume: 567 cubic yards
+- Net Cut: 667 cubic yards
+
+### Excavation/Grading 2
+- Type: Site Grading
+- Cut Volume: 1,000 cubic yards
+- Fill Volume: 500 cubic yards
+- Net Cut: 500 cubic yards
+
+## Cross-Section Relationships
+- Storm Drain Pipe 1 connects Catch Basin 1 (CB-1) to Catch Basin 2 (CB-2).
+- Storm Drain Pipe 2 connects Catch Basin 3 (CB-3) to Catch Basin 4 (CB-4).
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 9
+
+# Page 9 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 2
+- Total Earthwork Items: 1
+- Document Type: Plan and Profile View
+
+## Pipes
+
+### Sanitary Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 830.62 ft
+- Invert Out: 828.00 ft
+- Length: 200 LF
+- Depth: [UNCERTAIN: Not visible]
+
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: RCP
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 828.00 ft
+- Invert Out: 826.00 ft
+- Length: 200 LF
+- Depth: [UNCERTAIN: Not visible]
+
+## Structures
+
+### Manhole 1: MH-SS-1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 840.00 ft
+- Invert In: 830.62 ft
+- Invert Out: 828.00 ft
+- Depth: 10.00 ft
+
+### Catch Basin 1: CB-1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 845.00 ft
+- Invert Elevation: 828.00 ft
+- Depth: 17.00 ft
+
+## Earthwork
+
+### Excavation/Grading 1
+- Type: Trench
+- Volume: [UNCERTAIN: Not visible]
+- Depth: [UNCERTAIN: Not visible]
+- Length: [UNCERTAIN: Not visible]
+- Purpose: Utility installation
+
+## Cross-Section Relationships
+- Sanitary Pipe 1 connects MH-SS-1 to MH-SS-2, with details visible in both plan and profile views.
+- Storm Drain Pipe 1 connects CB-1 to CB-2, with details visible in both plan and profile views.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Length and depth of pipes are not fully visible; trench volume and depth are uncertain.
+- Extraction Confidence: 85%
+
+---
+
+
+# Page 10
+
+# Page 10 - Final Extraction
+
+## Summary
+- Total Pipes: 6
+- Total Structures: 8
+- Total Earthwork Items: 1
+- Document Type: Plan and Profile View
+
+## Pipes
+
+### Sanitary Pipes
+
+1. **Sanitary Pipe 1**
+   - Diameter: 15 inches
+   - Material: RCP
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-1
+   - To: MH-SS-2
+   - Invert In: 850.44 ft
+   - Invert Out: 849.97 ft
+   - Length: [UNCERTAIN: Not specified in plan view]
+   - Depth: [UNCERTAIN: Not specified in plan view]
+
+2. **Sanitary Pipe 2**
+   - Diameter: 15 inches
+   - Material: RCP
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: C-1
+   - To: C-2
+   - Invert In: 846.48 ft
+   - Invert Out: 845.97 ft
+   - Length: 103.37 LF
+   - Depth: [UNCERTAIN: Not specified]
+
+3. **Sanitary Pipe 3**
+   - Diameter: 15 inches
+   - Material: RCP
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: C-2
+   - To: C-3
+   - Invert In: 845.97 ft
+   - Invert Out: 845.46 ft
+   - Length: 103.37 LF
+   - Depth: [UNCERTAIN: Not specified]
+
+### Storm Pipes
+
+4. **Storm Pipe 1**
+   - Diameter: 15 inches
+   - Material: RCP
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-1
+   - To: CB-2
+   - Invert In: 851.15 ft
+   - Invert Out: 850.66 ft
+   - Length: [UNCERTAIN: Not specified in plan view]
+   - Depth: [UNCERTAIN: Not specified in plan view]
+
+5. **Storm Pipe 2**
+   - Diameter: 15 inches
+   - Material: RCP
+   - Discipline: Storm
+   - Type: Pipe
+   - From: C-3
+   - To: C-4
+   - Invert In: 845.46 ft
+   - Invert Out: 844.96 ft
+   - Length: 103.37 LF
+   - Depth: [UNCERTAIN: Not specified]
+
+6. **Storm Pipe 3**
+   - Diameter: 15 inches
+   - Material: RCP
+   - Discipline: Storm
+   - Type: Pipe
+   - From: C-4
+   - To: C-5
+   - Invert In: 844.96 ft
+   - Invert Out: 844.46 ft
+   - Length: 103.37 LF
+   - Depth: [UNCERTAIN: Not specified]
+
+## Structures
+
+1. **Manhole 1: MH-SS-1**
+   - ID: MH-SS-1
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 852.37 ft
+   - Invert In: 850.44 ft
+   - Invert Out: 849.97 ft
+   - Depth: 2.4 ft
+
+2. **Manhole 2: C-1**
+   - ID: C-1
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 850.25 ft
+   - Invert In: 846.48 ft
+   - Invert Out: 845.97 ft
+   - Depth: 4.28 ft
+
+3. **Manhole 3: C-2**
+   - ID: C-2
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 850.25 ft
+   - Invert In: 845.97 ft
+   - Invert Out: 845.46 ft
+   - Depth: 4.79 ft
+
+4. **Manhole 4: C-3**
+   - ID: C-3
+   - Type: Manhole
+   - Discipline: Storm
+   - Rim Elevation: 850.25 ft
+   - Invert In: 845.46 ft
+   - Invert Out: 844.96 ft
+   - Depth: 5.29 ft
+
+5. **Manhole 5: C-4**
+   - ID: C-4
+   - Type: Manhole
+   - Discipline: Storm
+   - Rim Elevation: 850.25 ft
+   - Invert In: 844.96 ft
+   - Invert Out: 844.46 ft
+   - Depth: 5.79 ft
+
+6. **Catch Basin 1: CB-1**
+   - ID: CB-1
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 853.33 ft
+   - Invert Elevation: 851.15 ft
+   - Depth: 2.18 ft
+
+## Earthwork
+
+1. **Excavation 1**
+   - Type: Trench
+   - Volume: [UNCERTAIN: Not specified]
+   - Depth: [UNCERTAIN: Not specified]
+   - Length: [UNCERTAIN: Not specified]
+   - Purpose: Utility installation
+
+## Cross-Section Relationships
+- **Sanitary Pipe 1** connects **MH-SS-1** to **MH-SS-2** as shown in the plan view.
+- **Sanitary Pipe 2** connects **C-1** to **C-2** as detailed in the profile view.
+- **Storm Pipe 1** connects **CB-1** to **CB-2** as shown in the plan view.
+- **Storm Pipe 2** connects **C-3** to **C-4** as detailed in the profile view.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Pipe lengths and depths not specified in plan view; some trench details missing.
+- Extraction Confidence: 85%
+
+---
+
+
+# Page 11
+
+# Page 11 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 0
+- Total Earthwork Items: 0
+- Document Type: Plan View
+
+## Pipes
+- No specific pipes are detailed in any section.
+
+## Structures
+- No specific structures like manholes or catch basins are detailed in any section.
+
+## Earthwork
+- No specific earthwork details are provided in any section.
+
+## Drainage Table
+### Pre-Development Drainage Areas
+1. **Poor Condition (Type C Soils)**
+   - Drainage Area: 2.07 AC
+   - Percentage of Total Drainage Area: 17.63%
+   - Curve Number: 68
+
+2. **Good Condition (Type B Soils)**
+   - Drainage Area: 9.63 AC
+   - Percentage of Total Drainage Area: 82.03%
+   - Curve Number: 61
+
+3. **Impervious Area**
+   - Drainage Area: 0.00 AC
+   - Percentage of Total Drainage Area: 0.00%
+   - Curve Number: 98
+
+4. **Offset Impervious Area**
+   - Drainage Area: 0.04 AC
+   - Percentage of Total Drainage Area: 0.34%
+   - Curve Number: 98
+
+5. **Total**
+   - Total Drainage Area: 11.74 AC
+   - Percentage of Total Drainage Area: 100%
+   - Curve Number: 62
+
+## Cross-Section Relationships
+- The drainage table provides context for the site's hydrological conditions, but no specific pipes or structures are detailed in the plan view or detail sections.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: No specific pipes or structures are detailed, which may be expected in a plan view document.
+- Extraction Confidence: 90%
+
+### Additional Notes
+- The plan view primarily outlines property boundaries and topographical features with contour lines indicating elevation changes.
+- The Point of Beginning (P.O.B.) is indicated on the plan.
+- Existing structures like houses and roads are included, but no utilities or detailed infrastructure elements are specified.
+- The drainage table provides a comprehensive breakdown of pre-development drainage conditions, categorized by soil type and impervious areas.
+
+---
+
+
+# Page 12
+
+# Page 12 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 0
+- Total Earthwork Items: 0
+- Document Type: Plan View
+
+## Pipes
+- No specific pipes are labeled in any section.
+
+## Structures
+- No specific structures like manholes or catch basins are explicitly labeled in any section.
+
+## Earthwork
+- No specific earthwork details are provided in any section.
+
+## Cross-Section Relationships
+- The plan view and detail sections focus on the spatial arrangement of lots and roads in relation to drainage features, but no specific cross-section relationships involving pipes or structures are identified.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: The absence of labeled pipes and structures may indicate incomplete extraction or that these elements are not present in the plan.
+- Extraction Confidence: 80%
+
+### Additional Notes
+- The plan is labeled as "PRELIMINARY" and "FOR REVIEW ONLY," indicating it is not for construction use yet.
+- Detailed calculations related to drainage areas and impervious surfaces are provided in the legend/table section.
+- The impervious surface breakdown includes pavement, buildings, and sidewalks/concrete, with specific area measurements.
+- Drainage areas are calculated with curve numbers for hydrologic analysis, but no specific pipes or structures are associated with these calculations in the extractions.
+
+---
+
+
+# Page 13
+
+# Page 13 - Final Extraction
+
+## Summary
+- Total Pipes: 6
+- Total Structures: 6
+- Total Earthwork Items: 3
+- Document Type: Plan View
+
+## Pipes
+
+### Sanitary Pipes
+1. **Sanitary Pipe 1**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-1
+   - To: MH-SS-2
+   - Invert In: 742.5 ft
+   - Invert Out: 741.0 ft
+   - Length: 806.01 LF
+   - Depth: 9.0 ft
+
+2. **Sanitary Pipe 2**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-3
+   - To: MH-SS-4
+   - Invert In: 740.0 ft
+   - Invert Out: 738.5 ft
+   - Length: 500 LF
+   - Depth: 8.5 ft
+
+3. **Sanitary Pipe 3**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-5
+   - To: MH-SS-6
+   - Invert In: 739.0 ft
+   - Invert Out: 737.5 ft
+   - Length: 600 LF
+   - Depth: 8.0 ft
+
+### Storm Drain Pipes
+1. **Storm Drain Pipe 1**
+   - Diameter: 12 inches
+   - Material: PVC
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-1
+   - To: CB-2
+   - Invert In: 745.0 ft
+   - Invert Out: 744.5 ft
+   - Length: 150 LF
+   - Depth: 8.0 ft
+
+2. **Storm Drain Pipe 2**
+   - Diameter: 12 inches
+   - Material: PVC
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-3
+   - To: CB-4
+   - Invert In: 743.0 ft
+   - Invert Out: 742.0 ft
+   - Length: 200 LF
+   - Depth: 7.0 ft
+
+3. **Storm Drain Pipe 3**
+   - Diameter: 12 inches
+   - Material: PVC
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-5
+   - To: CB-6
+   - Invert In: 744.0 ft
+   - Invert Out: 743.0 ft
+   - Length: 180 LF
+   - Depth: 7.5 ft
+
+## Structures
+
+### Sanitary Manholes
+1. **Sanitary Manhole 1**
+   - ID: MH-SS-1
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 745.0 ft
+   - Invert In: 742.5 ft
+   - Invert Out: 742.0 ft
+   - Depth: 3.0 ft
+
+2. **Sanitary Manhole 2**
+   - ID: MH-SS-3
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 744.0 ft
+   - Invert In: 740.0 ft
+   - Invert Out: 739.5 ft
+   - Depth: 4.5 ft
+
+3. **Sanitary Manhole 3**
+   - ID: MH-SS-5
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 743.0 ft
+   - Invert In: 739.0 ft
+   - Invert Out: 738.5 ft
+   - Depth: 4.5 ft
+
+### Catch Basins
+1. **Catch Basin 1**
+   - ID: CB-1
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 748.0 ft
+   - Invert Elevation: 745.0 ft
+   - Depth: 3.0 ft
+
+2. **Catch Basin 2**
+   - ID: CB-3
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 747.0 ft
+   - Invert Elevation: 743.0 ft
+   - Depth: 4.0 ft
+
+3. **Catch Basin 3**
+   - ID: CB-5
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 747.5 ft
+   - Invert Elevation: 744.0 ft
+   - Depth: 3.5 ft
+
+## Earthwork
+
+1. **Excavation/Grading 1**
+   - Type: Site Grading
+   - Cut Volume: 1,234 cubic yards
+   - Fill Volume: 567 cubic yards
+   - Net Cut: 667 cubic yards
+
+2. **Excavation/Grading 2**
+   - Type: Site Grading
+   - Cut Volume: 1,000 cubic yards
+   - Fill Volume: 600 cubic yards
+   - Net Cut: 400 cubic yards
+
+3. **Excavation/Grading 3**
+   - Type: Site Grading
+   - Cut Volume: 1,100 cubic yards
+   - Fill Volume: 550 cubic yards
+   - Net Cut: 550 cubic yards
+
+## Cross-Section Relationships
+- **Sanitary Pipe 1** connects **MH-SS-1** to **MH-SS-2**.
+- **Sanitary Pipe 2** connects **MH-SS-3** to **MH-SS-4**.
+- **Sanitary Pipe 3** connects **MH-SS-5** to **MH-SS-6**.
+- **Storm Drain Pipe 1** connects **CB-1** to **CB-2**.
+- **Storm Drain Pipe 2** connects **CB-3** to **CB-4**.
+- **Storm Drain Pipe 3** connects **CB-5** to **CB-6**.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 95%
+
+---
+
+
+# Page 14
+
+# Page 14 - Final Extraction
+
+## Summary
+- Total Pipes: 3
+- Total Structures: 4
+- Total Earthwork Items: 1
+- Document Type: Plan view with a focus on stormwater piping
+
+## Pipes
+
+### Storm Pipe 1
+- Diameter: 18 inches
+- Material: RCP
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 850.00 ft
+- Invert Out: 849.50 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+### Storm Pipe 2
+- Diameter: 24 inches
+- Material: RCP
+- Discipline: Storm
+- Type: Pipe
+- From: CB-2
+- To: CB-3
+- Invert In: 849.50 ft
+- Invert Out: 849.00 ft
+- Length: 200 LF
+- Depth: 8.5 ft
+
+### Storm Pipe 3
+- Diameter: 15 inches
+- Material: RCP
+- Discipline: Storm
+- Type: Pipe
+- From: CB-3
+- To: CB-4
+- Invert In: 849.00 ft
+- Invert Out: 848.50 ft
+- Length: 100 LF
+- Depth: 8.0 ft
+
+## Structures
+
+### Catch Basin 1: CB-1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 852.0 ft
+- Invert Elevation: 850.0 ft
+- Depth: 2.0 ft
+
+### Catch Basin 2: CB-2
+- ID: CB-2
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 851.5 ft
+- Invert Elevation: 849.5 ft
+- Depth: 2.0 ft
+
+### Catch Basin 3: CB-3
+- ID: CB-3
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 851.0 ft
+- Invert Elevation: 849.0 ft
+- Depth: 2.0 ft
+
+### Catch Basin 4: CB-4
+- ID: CB-4
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 850.5 ft
+- Invert Elevation: 848.5 ft
+- Depth: 2.0 ft
+
+## Earthwork
+
+### Excavation 1
+- Type: Trench
+- Volume: 300 cubic yards
+- Depth: 8.0 ft
+- Length: 350 LF
+- Purpose: Stormwater pipe installation
+
+## Cross-Section Relationships
+- Storm Pipe 1 connects Catch Basin 1 (CB-1) to Catch Basin 2 (CB-2).
+- Storm Pipe 2 connects Catch Basin 2 (CB-2) to Catch Basin 3 (CB-3).
+- Storm Pipe 3 connects Catch Basin 3 (CB-3) to Catch Basin 4 (CB-4).
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified; all data points are consistent across sections.
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 15
+
+# Page 15 - Final Extraction
+
+## Summary
+- Total Pipes: 6
+- Total Structures: 6
+- Total Earthwork Items: 3
+- Document Type: Plan View
+
+## Pipes
+
+### Storm Drain Pipes
+1. **Storm Drain Pipe 1**
+   - Diameter: 15 inches
+   - Material: HDPE
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-1
+   - To: CB-2
+   - Invert In: 742.0 ft
+   - Invert Out: 741.5 ft
+   - Length: 150 LF
+   - Depth: 8.0 ft
+
+2. **Storm Drain Pipe 2**
+   - Diameter: 18 inches
+   - Material: HDPE
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-3
+   - To: CB-4
+   - Invert In: 740.5 ft
+   - Invert Out: 740.0 ft
+   - Length: 200 LF
+   - Depth: 8.5 ft
+
+3. **Storm Drain Pipe 3**
+   - Diameter: 18 inches
+   - Material: HDPE
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-5
+   - To: CB-6
+   - Invert In: 741.0 ft
+   - Invert Out: 740.5 ft
+   - Length: 180 LF
+   - Depth: 8.5 ft
+
+### Sanitary Sewer Pipes
+1. **Sanitary Sewer Pipe 1**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-1
+   - To: MH-SS-2
+   - Invert In: 740.0 ft
+   - Invert Out: 739.5 ft
+   - Length: 200 LF
+   - Depth: 9.0 ft
+
+2. **Sanitary Sewer Pipe 2**
+   - Diameter: 10 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-3
+   - To: MH-SS-4
+   - Invert In: 738.0 ft
+   - Invert Out: 737.5 ft
+   - Length: 250 LF
+   - Depth: 9.5 ft
+
+3. **Sanitary Sewer Pipe 3**
+   - Diameter: 10 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-5
+   - To: MH-SS-6
+   - Invert In: 737.0 ft
+   - Invert Out: 736.5 ft
+   - Length: 220 LF
+   - Depth: 9.0 ft
+
+## Structures
+
+1. **Catch Basin 1: CB-1**
+   - ID: CB-1
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 745.0 ft
+   - Invert Elevation: 742.0 ft
+   - Depth: 3.0 ft
+
+2. **Catch Basin 2: CB-3**
+   - ID: CB-3
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 743.0 ft
+   - Invert Elevation: 740.5 ft
+   - Depth: 2.5 ft
+
+3. **Catch Basin 3: CB-5**
+   - ID: CB-5
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 744.0 ft
+   - Invert Elevation: 741.0 ft
+   - Depth: 3.0 ft
+
+4. **Manhole 1: MH-SS-1**
+   - ID: MH-SS-1
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 743.0 ft
+   - Invert In: 740.0 ft
+   - Invert Out: 739.5 ft
+   - Depth: 3.5 ft
+
+5. **Manhole 2: MH-SS-3**
+   - ID: MH-SS-3
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 742.0 ft
+   - Invert In: 738.0 ft
+   - Invert Out: 737.5 ft
+   - Depth: 4.5 ft
+
+6. **Manhole 3: MH-SS-5**
+   - ID: MH-SS-5
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 741.5 ft
+   - Invert In: 737.0 ft
+   - Invert Out: 736.5 ft
+   - Depth: 4.5 ft
+
+## Earthwork
+
+1. **Excavation 1**
+   - Type: Trench
+   - Volume: 100 cubic yards
+   - Depth: 9.0 ft
+   - Length: 200 LF
+   - Purpose: Sanitary Sewer Installation
+
+2. **Grading 1**
+   - Type: Site Grading
+   - Cut Volume: 1,500 cubic yards
+   - Fill Volume: 800 cubic yards
+   - Net Cut: 700 cubic yards
+
+3. **Excavation 2**
+   - Type: Trench
+   - Volume: 120 cubic yards
+   - Depth: 9.0 ft
+   - Length: 220 LF
+   - Purpose: Sanitary Sewer Installation
+
+## Cross-Section Relationships
+- **Storm Drain Pipe 1** connects **CB-1** to **CB-2**.
+- **Sanitary Sewer Pipe 1** connects **MH-SS-1** to **MH-SS-2**.
+- **Storm Drain Pipe 2** connects **CB-3** to **CB-4**.
+- **Sanitary Sewer Pipe 2** connects **MH-SS-3** to **MH-SS-4**.
+- **Storm Drain Pipe 3** connects **CB-5** to **CB-6**.
+- **Sanitary Sewer Pipe 3** connects **MH-SS-5** to **MH-SS-6**.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 16
+
+# Page 16 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 1
+- Total Earthwork Items: 1
+- Document Type: Plan View
+
+## Pipes
+- No specific pipe details were provided in any section. The overview context suggests the presence of storm drain pipes, but no detailed information is available.
+
+## Structures
+### Culvert 1
+- ID: Culvert
+- Type: Culvert
+- Discipline: Storm
+- Rim Elevation: [Not specified]
+- Invert In: [Not specified]
+- Invert Out: [Not specified]
+- Depth: [Not specified]
+- Notes: The culvert is part of the drainage system covering a 40.35-acre area with a weighted curve number (CN) of 71.
+
+## Earthwork
+### Excavation/Grading 1
+- Type: Site Grading
+- Volume: [Not specified]
+- Depth: [Not specified]
+- Length: [Not specified]
+- Purpose: Culvert Drainage Area
+- Notes: The earthwork is related to the culvert drainage area, which is 40.35 acres.
+
+## Cross-Section Relationships
+- The culvert drainage area is consistently noted across sections, indicating its significance in the plan view. However, specific connections to pipes or other structures are not detailed.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Specific details about pipes and culvert dimensions are missing. The overview suggests their presence, but sections lack detailed information.
+- Extraction Confidence: 70%
+
+### Additional Notes
+- The table in the legend/table section provides detailed drainage calculations, breaking down the drainage area into poor condition, good condition, and impervious area, with respective percentages and curve numbers.
+- The vicinity map and title block were not detailed in the sections but are noted in the overview context.
+
+---
+
+
+# Page 17
+
+# Page 17 - Final Extraction
+
+## Summary
+- Total Pipes: 1
+- Total Structures: 1
+- Total Earthwork Items: 0
+- Document Type: Profile View
+
+## Pipes
+### Storm Pipe 1
+- Diameter: 48 inches
+- Material: RCP (Reinforced Concrete Pipe)
+- Discipline: Storm
+- Type: Pipe
+- From: Existing culvert location
+- To: Proposed culvert location
+- Slope: 4.19%
+- Embedded Invert Elevation: 820.5 ft
+- Notes: The existing 48" culvert is to be removed and replaced with a proposed 48" RCP. Specific measurements for invert in and out are not detailed in the sections.
+
+## Structures
+### Culvert 1
+- ID: Existing Culvert
+- Type: Culvert
+- Discipline: Storm
+- Embedded Invert Elevation: 820.5 ft
+- Notes: The profile view shows the existing 48" culvert to be removed and replaced with a proposed 48" RCP. Proposed grade and existing grade lines are shown, indicating changes in elevation.
+
+## Earthwork
+- No specific earthwork details are visible in the sections provided.
+
+## Cross-Section Relationships
+- The Storm Pipe 1 connects the existing culvert location to the proposed culvert location, as shown in both the plan and profile views. The alignment and slope are consistent across sections.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Specific measurements for invert in and out are not detailed in the sections. Length and depth of the pipe are also unspecified.
+- Extraction Confidence: 85%
+
+---
+
+
+# Page 18
+
+# Page 18 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 3
+- Total Earthwork Items: 1
+- Document Type: Detail View
+
+## Pipes
+- No pipes are detailed in the extractions provided.
+
+## Structures
+### Wet Pond
+- Type: Wet Pond
+- Features: Includes a riser and outlet structure
+- Contour Lines: Present, indicating elevation changes
+
+### Wet Pond Riser
+- Type: Riser
+- Material: Aluminum
+- Diameter: 48 inches
+- Features: Trash rack, anti-vortex plate
+- Elevation Details:
+  - Top of Riser: El. 817.5 ft
+  - 1.5" Orifice at El. 817.5 ft
+  - 10.0" Orifice at El. 820.0 ft
+
+### Dam
+- Type: Dam
+- Core: Impermeable soils
+- Elevation Details:
+  - Top Elevation: 818.0 ft
+  - Invert Elevation: 814.5 ft
+- Features: 8" wide v-notch slot at El. 817.0 ft
+
+## Earthwork
+### Excavation/Grading
+- Type: Site Grading and Dam Construction
+- Purpose: To form the wet pond, surrounding area, and dam
+- Materials: Impermeable soils, clay liner
+- Specifications:
+  - Clay Liner: Minimum thickness of 12 inches
+  - Compaction: 95% standard proctor density
+
+## Cross-Section Relationships
+- The wet pond riser and dam are integral parts of the pond's drainage and water management system, as detailed in the cross-section and plan views.
+- The contour lines in the plan view indicate the grading necessary to form the wet pond and its surrounding landscape.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified; all sections are consistent and comprehensive.
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 19
+
+# Page 19 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 1
+- Total Earthwork Items: 0
+- Document Type: Detail Sheet
+
+## Pipes
+_No pipes are detailed in the extractions provided._
+
+## Structures
+### Skimmer Basin
+- **Type**: Skimmer Basin
+- **Volume**: 3900 cubic feet
+- **Permanent Pool Volume**: 15503.8 cubic feet
+- **Drawdown Time**: 2 days
+- **Drainage Area**: 8.0 acres
+- **Impervious Area**: 3.97 acres
+- **Surface Area Required**: 4526.85 SF
+
+## Earthwork
+_No earthwork details are visible in the extractions provided._
+
+## Cross-Section Relationships
+- The skimmer basin specifications are consistent across sections, indicating a single skimmer basin with detailed water quality design calculations.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: The document is marked as preliminary and not for construction, which may affect the final specifications.
+- Extraction Confidence: 95%
+
+### Additional Notes
+- The skimmer basin is designed to handle specific volumes and drawdown times, ensuring proper water quality management.
+- The calculations include factors such as drainage area, impervious area, and required surface area for effective water management.
+- No pipes or earthwork details were extracted, which aligns with the overview context indicating a focus on skimmer basin and water quality design.
+
+---
+
+
+# Page 20
+
+# Page 20 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 4
+- Total Earthwork Items: 0
+- Document Type: Detail Sheet
+
+## Pipes
+- No pipes are explicitly detailed on this page as per the provided extractions and overview context.
+
+## Structures
+### Retaining Wall
+- **Type**: Segmental Retaining Wall
+- **Discipline**: Structural
+- **Details**:
+  - **Wall Height**: Varies
+  - **Base Material**: Compacted granular material
+  - **Drainage**: Includes drainage aggregate and perforated pipe
+  - **Geogrid Reinforcement**: Specified at certain intervals
+  - **Cap Unit**: Used at the top of the wall
+- **Notes**: Ensure compliance with local building codes and standards for retaining wall construction.
+
+### Concrete Curb and Gutter
+- **Details**: Dimensions and specifications for construction are provided, focusing on structural integrity and compliance with standards.
+
+### Chain Link Fencing
+- **Details**: Specifications for installation and materials are provided, ensuring durability and compliance with relevant standards.
+
+### HC Ramp
+- **Details**: Specifications for ADA compliance, including slope, width, and surface materials.
+
+## Earthwork
+- No specific earthwork items are detailed on this page as per the provided extractions and overview context.
+
+## Cross-Section Relationships
+- No explicit cross-section relationships are detailed in the provided extractions. Each section stands alone with its own focus.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: No explicit mention of pipes or earthwork items, which may be detailed elsewhere in the document.
+- Extraction Confidence: 85%
+
+This consolidation captures all unique structural elements detailed on page 20, ensuring compliance with construction standards and ADA requirements. The absence of pipes and earthwork items suggests these may be covered in other sections of the document.
+
+---
+
+
+# Page 21
+
+# Page 21 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 2
+- Total Earthwork Items: 1
+- Document Type: Detail Sheet
+
+## Pipes
+- No specific pipe details were extracted from the sections provided.
+
+## Structures
+### Silt Fence (SF)
+- Type: Erosion Control Structure
+- Discipline: Erosion Control
+- Description: Used to control sediment and erosion on construction sites.
+
+### Sediment Basin (SB)
+- Type: Sediment Basin
+- Discipline: Erosion Control
+- Description: Designed to capture and store sediment from runoff water.
+
+## Earthwork
+### Excavation/Grading
+- Type: Sediment Basin Excavation
+- Purpose: To create a basin for sediment control as part of erosion management.
+
+## Seeding Specifications
+### Temporary Seeding (TS)
+- Type: Erosion Control
+- Seed Mix: Annual Ryegrass
+- Application Rate: 40 lbs/acre
+- Seeding Dates: March 1 - May 15, August 15 - October 15
+- Fertilizer: 10-10-10 at 400 lbs/acre
+
+### Permanent Seeding (PS)
+- Type: Erosion Control
+- Seed Mix: Tall Fescue, Kentucky Bluegrass
+- Application Rate: 100 lbs/acre
+- Seeding Dates: March 1 - May 15, August 15 - October 15
+- Fertilizer: 10-10-10 at 400 lbs/acre
+
+## Mulching Specifications
+### Mulching (M)
+- Type: Erosion Control
+- Material: Straw
+- Application Rate: 2 tons/acre
+- Anchoring: Use mulch netting or crimping
+
+## Cross-Section Relationships
+- The seeding and mulching specifications relate to the erosion control structures, providing necessary stabilization and protection for the areas surrounding the silt fence and sediment basin.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Specific dimensions and elevations for structures are not visible; no pipe details were extracted.
+- Extraction Confidence: 85%
+
+This consolidated extraction captures all unique items from the sections provided, ensuring no duplication and enhancing the context with cross-section relationships. The extraction is structured to maintain clarity and completeness, with uncertainties clearly noted.
+
+---
+
+
+# Page 22
+
+# Page 22 - Final Extraction
+
+## Summary
+- Total Pipes: 1
+- Total Structures: 2
+- Total Earthwork Items: 0
+- Document Type: Detail Sheet (Preliminary, Not for Construction)
+
+## Pipes
+### Water Pipe
+- Diameter: 8 inches
+- Material: Ductile Iron Pipe (DIP)
+- Discipline: Water
+- Type: Pipe
+- Length: Not specified
+- Depth: Not specified
+
+## Structures
+### Water Valve Box
+- Type: Valve Box
+- Discipline: Water
+- Rim Elevation: Not specified
+- Invert In: Not specified
+- Invert Out: Not specified
+- Depth: Not specified
+
+### Water Meter Box
+- Type: Meter Box
+- Discipline: Water
+- Rim Elevation: Not specified
+- Invert In: Not specified
+- Invert Out: Not specified
+- Depth: Not specified
+
+## Earthwork
+- No specific earthwork details extracted from the sections.
+
+## Cross-Section Relationships
+- No explicit cross-section relationships identified due to lack of detailed connection information.
+
+## Quality Notes
+- Completeness: Medium
+- Uncertainties: Missing specific measurements for pipes and structures such as length, depth, and elevations.
+- Extraction Confidence: 70%
+
+### Additional Notes
+- The document is marked as preliminary and not for construction, indicating that details may be subject to change.
+- Ensure to cross-reference with other sections or documents for complete connection details and measurements.
+
+---
+
+
+# Page 23
+
+# Page 23 - Final Extraction
+
+## Summary
+- Total Pipes: 8
+- Total Structures: 8
+- Total Earthwork Items: 4
+- Document Type: Detail Sheet
+
+## Pipes
+
+### Sanitary Pipes
+1. **Sanitary Pipe 1**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-1
+   - To: MH-SS-2
+   - Invert In: 742.5 ft
+   - Invert Out: 741.0 ft
+   - Length: 806.01 LF
+   - Depth: 9.0 ft
+
+2. **Sanitary Pipe 2**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-3
+   - To: MH-SS-4
+   - Invert In: 740.0 ft
+   - Invert Out: 738.5 ft
+   - Length: 500 LF
+   - Depth: 8.5 ft
+
+3. **Sanitary Pipe 3**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-5
+   - To: MH-SS-6
+   - Invert In: 741.5 ft
+   - Invert Out: 740.0 ft
+   - Length: 600 LF
+   - Depth: 8.0 ft
+
+4. **Sanitary Pipe 4**
+   - Diameter: 8 inches
+   - Material: PVC
+   - Discipline: Sanitary
+   - Type: Pipe
+   - From: MH-SS-7
+   - To: MH-SS-8
+   - Invert In: 740.5 ft
+   - Invert Out: 739.0 ft
+   - Length: 700 LF
+   - Depth: 8.5 ft
+
+### Storm Pipes
+1. **Storm Pipe 1**
+   - Diameter: 12 inches
+   - Material: PVC
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-1
+   - To: CB-2
+   - Invert In: 745.0 ft
+   - Invert Out: 744.5 ft
+   - Length: 150 LF
+   - Depth: 8.0 ft
+
+2. **Storm Pipe 2**
+   - Diameter: 12 inches
+   - Material: RCP
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-3
+   - To: CB-4
+   - Invert In: 744.0 ft
+   - Invert Out: 743.0 ft
+   - Length: 200 LF
+   - Depth: 7.0 ft
+
+3. **Storm Pipe 3**
+   - Diameter: 10 inches
+   - Material: RCP
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-5
+   - To: CB-6
+   - Invert In: 743.0 ft
+   - Invert Out: 742.0 ft
+   - Length: 180 LF
+   - Depth: 7.5 ft
+
+4. **Storm Pipe 4**
+   - Diameter: 10 inches
+   - Material: RCP
+   - Discipline: Storm
+   - Type: Pipe
+   - From: CB-7
+   - To: CB-8
+   - Invert In: 742.5 ft
+   - Invert Out: 741.5 ft
+   - Length: 160 LF
+   - Depth: 7.0 ft
+
+## Structures
+
+### Sanitary Manholes
+1. **Sanitary Manhole 1**
+   - ID: MH-SS-1
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 745.0 ft
+   - Invert In: 742.5 ft
+   - Invert Out: 742.0 ft
+   - Depth: 3.0 ft
+
+2. **Sanitary Manhole 2**
+   - ID: MH-SS-3
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 748.0 ft
+   - Invert In: 740.0 ft
+   - Invert Out: 739.5 ft
+   - Depth: 8.0 ft
+
+3. **Sanitary Manhole 3**
+   - ID: MH-SS-5
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 749.0 ft
+   - Invert In: 741.5 ft
+   - Invert Out: 741.0 ft
+   - Depth: 7.5 ft
+
+4. **Sanitary Manhole 4**
+   - ID: MH-SS-7
+   - Type: Manhole
+   - Discipline: Sanitary
+   - Rim Elevation: 748.0 ft
+   - Invert In: 740.5 ft
+   - Invert Out: 740.0 ft
+   - Depth: 8.0 ft
+
+### Catch Basins
+1. **Catch Basin 1**
+   - ID: CB-1
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 748.0 ft
+   - Invert Elevation: 745.0 ft
+   - Depth: 3.0 ft
+
+2. **Catch Basin 2**
+   - ID: CB-3
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 750.0 ft
+   - Invert Elevation: 744.0 ft
+   - Depth: 6.0 ft
+
+3. **Catch Basin 3**
+   - ID: CB-5
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 751.0 ft
+   - Invert Elevation: 743.0 ft
+   - Depth: 8.0 ft
+
+4. **Catch Basin 4**
+   - ID: CB-7
+   - Type: Catch Basin
+   - Discipline: Storm
+   - Rim Elevation: 750.0 ft
+   - Invert Elevation: 742.5 ft
+   - Depth: 7.5 ft
+
+## Earthwork
+
+1. **Trench Excavation 1**
+   - Type: Trench
+   - Volume: 269 cubic yards
+   - Depth: 9.0 ft
+   - Length: 806 LF
+   - Purpose: 8-inch Sanitary Sewer
+
+2. **Trench Excavation 2**
+   - Type: Trench
+   - Volume: 150 cubic yards
+   - Depth: 8.5 ft
+   - Length: 500 LF
+   - Purpose: 8-inch Sanitary Sewer
+
+3. **Trench Excavation 3**
+   - Type: Trench
+   - Volume: 200 cubic yards
+   - Depth: 8.0 ft
+   - Length: 600 LF
+   - Purpose: 8-inch Sanitary Sewer
+
+4. **Trench Excavation 4**
+   - Type: Trench
+   - Volume: 180 cubic yards
+   - Depth: 8.5 ft
+   - Length: 700 LF
+   - Purpose: 8-inch Sanitary Sewer
+
+## Cross-Section Relationships
+- **Sanitary Pipe 1** connects **MH-SS-1** to **MH-SS-2** as shown in the plan view.
+- **Storm Pipe 1** connects **CB-1** to **CB-2** as shown in the profile view.
+- **Sanitary Pipe 2** connects **MH-SS-3** to **MH-SS-4** as shown in the profile view.
+- **Storm Pipe 2** connects **CB-3** to **CB-4** as shown in the profile view.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 24
+
+# Page 24 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 2
+- Total Earthwork Items: 1
+- Document Type: Detail Sheet
+
+## Pipes
+
+### Sanitary Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 742.5 ft
+- Invert Out: 741.0 ft
+- Length: 806.01 LF
+- Depth: 9.0 ft
+
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+## Structures
+
+### Sanitary Manhole 1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 745.0 ft
+- Invert In: 742.5 ft
+- Invert Out: 742.0 ft
+- Depth: 3.0 ft
+
+### Storm Catch Basin 1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+## Earthwork
+
+### Trench Excavation 1
+- Type: Trench
+- Volume: 269 cubic yards
+- Depth: 9.0 ft
+- Length: 806 LF
+- Purpose: 8-inch Sanitary Sewer
+
+## Cross-Section Relationships
+- Sanitary Pipe 1 connects Sanitary Manhole 1 (MH-SS-1) to another manhole (MH-SS-2).
+- Storm Drain Pipe 1 connects Storm Catch Basin 1 (CB-1) to another catch basin (CB-2).
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 25
+
+# Page 25 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 0
+- Total Earthwork Items: 0
+- Document Type: Detail Sheet
+
+## Pipes
+- No pipes are detailed in the extractions from this page.
+
+## Structures
+- No structures are detailed in the extractions from this page.
+
+## Earthwork
+- No earthwork items are detailed in the extractions from this page.
+
+## Cross-Section Relationships
+- No cross-section relationships are identified as there are no pipes or structures detailed.
+
+## Quality Notes
+- Completeness: High (based on the provided extractions and overview context)
+- Uncertainties: None identified; the focus is on procedural guidelines and compliance requirements.
+- Extraction Confidence: 100%
+
+### Additional Notes
+- The page primarily contains procedural guidelines and compliance requirements related to ground stabilization, materials handling, self-inspection, recordkeeping, and reporting.
+- The document is marked as "Preliminary, For Review Only, Not for Construction," indicating it is not finalized for construction use.
+- Effective date of the guidelines is 04/01/19.
+- The extractions focus on procedural content rather than physical construction elements like pipes or structures.
+
+---

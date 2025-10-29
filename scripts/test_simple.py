@@ -8,6 +8,10 @@ import sys
 import asyncio
 import logging
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add parent to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -129,7 +133,7 @@ async def test_rag_retrieval():
         # Test query
         results = await rag.retrieve_with_expansion(
             query="What does SS mean in construction?",
-            top_k=3
+            k=3
         )
         
         assert len(results) > 0, "No RAG results returned"

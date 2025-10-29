@@ -15,6 +15,10 @@ import logging
 from typing import Dict, List, Any, Optional, Union
 from pathlib import Path
 import asyncio
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
@@ -398,15 +402,16 @@ Return ONLY the firm name, nothing else."""
             notation = get_notation_guide(firm)
             
             # Query RAG
-            rag_results = await self.rag.retrieve_with_expansion(
+            rag_results = self.rag.retrieve_with_expansion(
                 query=query + " " + " ".join(notation.keys())[:100],
-                top_k=5
+                k=5
             )
             
             # Format RAG results
             rag_text = "## Construction Standards (RAG):\n"
             for i, doc in enumerate(rag_results[:3], 1):
-                content = doc.page_content[:200]
+                # RAG returns dicts, not document objects
+                content = doc.get('page_content', str(doc))[:200]
                 rag_text += f"{i}. {content}...\n"
             
             return rag_text

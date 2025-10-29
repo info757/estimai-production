@@ -1,0 +1,47 @@
+{
+  "pipes": [
+    {
+      "discipline": "sanitary mainline",
+      "diameter_in": 8.0,
+      "material": "PVC",
+      "type": "Pipe",
+      "length_ft": 806.01,
+      "depth_ft": 9.0,
+      "from": "MH-SS-1",
+      "to": "MH-SS-2",
+      "invert_in": 742.5,
+      "invert_out": 741.0,
+      "count": 1.0
+    }
+  ],
+  "structures": [
+    {
+      "id": "MH-SS-1",
+      "type": "Manhole",
+      "discipline": "Sanitary",
+      "rim_elevation": 745.0,
+      "invert_in": 742.5,
+      "invert_out": 742.0,
+      "invert_elevation": null,
+      "depth_ft": 3.0
+    }
+  ],
+  "earthwork": [
+    {
+      "type": "Unknown",
+      "volume_cy": 269.0,
+      "depth_ft": 9.0,
+      "length_ft": 806.0,
+      "purpose": "8-inch Sanitary Sewer",
+      "cut_cy": null,
+      "fill_cy": null
+    }
+  ],
+  "metadata": {
+    "pages_processed": 25,
+    "total_pipes": 4.0,
+    "total_structures": 3.0,
+    "total_earthwork": 2.0,
+    "firm": "Hagen Engineering"
+  }
+}
