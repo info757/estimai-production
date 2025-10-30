@@ -421,7 +421,7 @@ Return ONLY the firm name, nothing else."""
     
     async def _call_vision_llm(
         self,
-        image_b64: str,
+        image_b64: Union[str, List[str]],
         system_prompt: str,
         user_prompt: str
     ) -> str:
@@ -429,7 +429,7 @@ Return ONLY the firm name, nothing else."""
         Call vision LLM with image and prompts.
         
         Args:
-            image_b64: Base64-encoded image
+            image_b64: Base64-encoded image OR list of images (for few-shot exemplars)
             system_prompt: System instruction
             user_prompt: User query
             
@@ -437,21 +437,29 @@ Return ONLY the firm name, nothing else."""
             LLM response text
         """
         try:
+            # Normalize images input to a list
+            images: List[str] = (
+                [image_b64] if isinstance(image_b64, str) else list(image_b64)
+            )
+
+            # Build multimodal content: zero or more images, then text
+            content: List[dict] = []
+            for img in images:
+                content.append({
+                    "type": "image_url",
+                    "image_url": {
+                        "url": f"data:image/png;base64,{img}",
+                        "detail": "high"
+                    }
+                })
+            content.append({
+                "type": "text",
+                "text": user_prompt
+            })
+
             messages = [
                 SystemMessage(content=system_prompt),
-                HumanMessage(content=[
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": f"data:image/png;base64,{image_b64}",
-                            "detail": "high"
-                        }
-                    },
-                    {
-                        "type": "text",
-                        "text": user_prompt
-                    }
-                ])
+                HumanMessage(content=content)
             ]
             
             response = await self.llm.ainvoke(messages)

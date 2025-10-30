@@ -1,0 +1,196 @@
+# Construction Document Extraction
+
+**Firm**: Hagen Engineering
+**Total Pages**: 3
+**Extraction Date**: 2025-10-30 10:24
+
+---
+
+
+
+# Page 1
+
+# Page 1 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 2
+- Total Earthwork Items: 1
+- Document Type: Plan view with notes and approval sections
+
+## Pipes
+
+### Sanitary Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 742.5 ft
+- Invert Out: 741.0 ft
+- Length: 806.01 LF
+- Depth: 9.0 ft
+
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+## Structures
+
+### Sanitary Manhole 1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 745.0 ft
+- Invert In: 742.5 ft
+- Invert Out: 742.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+## Earthwork
+
+### Site Grading 1
+- Type: Site Grading
+- Cut Volume: 1,234 cubic yards
+- Fill Volume: 567 cubic yards
+- Net Cut: 667 cubic yards
+
+## Cross-Section Relationships
+- Sanitary Pipe 1 connects Sanitary Manhole 1 (MH-SS-1) to another manhole (MH-SS-2).
+- Storm Drain Pipe 1 connects Catch Basin 1 (CB-1) to another catch basin (CB-2).
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified
+- Extraction Confidence: 100%
+
+This consolidated extraction captures all unique items from the sections, ensuring no duplication and enhancing the data with cross-section relationships. The overview context was used to verify the completeness and accuracy of the extraction.
+
+---
+
+
+# Page 2
+
+# Page 2 - Final Extraction
+
+## Summary
+- Total Pipes: 2
+- Total Structures: 2
+- Total Earthwork Items: 1
+- Document Type: Plan View
+
+## Pipes
+
+### Sanitary Pipe 1
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-1
+- To: MH-SS-2
+- Invert In: 742.5 ft
+- Invert Out: 741.0 ft
+- Length: 806.01 LF
+- Depth: 9.0 ft
+
+### Storm Drain Pipe 1
+- Diameter: 12 inches
+- Material: PVC
+- Discipline: Storm
+- Type: Pipe
+- From: CB-1
+- To: CB-2
+- Invert In: 745.0 ft
+- Invert Out: 744.5 ft
+- Length: 150 LF
+- Depth: 8.0 ft
+
+## Structures
+
+### Sanitary Manhole 1
+- ID: MH-SS-1
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 745.0 ft
+- Invert In: 742.5 ft
+- Invert Out: 742.0 ft
+- Depth: 3.0 ft
+
+### Catch Basin 1
+- ID: CB-1
+- Type: Catch Basin
+- Discipline: Storm
+- Rim Elevation: 748.0 ft
+- Invert Elevation: 745.0 ft
+- Depth: 3.0 ft
+
+## Earthwork
+
+### Excavation 1
+- Type: Trench
+- Volume: 269 cubic yards
+- Depth: 9.0 ft
+- Length: 806 LF
+- Purpose: 8-inch Sanitary Sewer
+
+## Cross-Section Relationships
+- Sanitary Pipe 1 connects Sanitary Manhole 1 (MH-SS-1) to another manhole (MH-SS-2), as shown in both plan and detail sections.
+- Storm Drain Pipe 1 connects Catch Basin 1 (CB-1) to another catch basin (CB-2), consistent across sections.
+
+## Quality Notes
+- Completeness: High
+- Uncertainties: None identified; all items are consistent across sections.
+- Extraction Confidence: 100%
+
+---
+
+
+# Page 3
+
+# Page 3 - Final Extraction
+
+## Summary
+- Total Pipes: 0
+- Total Structures: 0
+- Total Earthwork Items: 0
+- Document Type: Plan view with topographic and boundary details
+
+## Pipes
+_No pipes are detailed in any section._
+
+## Structures
+_No structures such as manholes or catch basins are detailed in any section._
+
+## Earthwork
+_No specific earthwork details such as excavation or grading are provided in any section._
+
+## Cross-Section Relationships
+- The plan view and detail sections focus on topographic contours and property boundaries, with no utilities or structures detailed.
+- Easements are shown but not detailed in terms of utilities.
+
+## Quality Notes
+- Completeness: High (based on the focus of the document on topography and boundaries rather than utilities or structures)
+- Uncertainties: None identified; the document's focus is clear and consistent with the overview.
+- Extraction Confidence: 100%
+
+---
+
+This final extraction consolidates all available information from the sections, confirming the absence of detailed utilities, structures, or earthwork, consistent with the document's focus on topography and property boundaries.
+
+---
