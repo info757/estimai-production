@@ -15,7 +15,7 @@ from rank_bm25 import BM25Okapi
 
 
 LENGTH_RE = re.compile(r"(?P<len>\d+(?:\.\d+)?)\s*LF\b", re.I)
-DIAMETER_RE = re.compile(r"(?P<dia>\d{1,2})\s*\"", re.I)
+DIAMETER_RE = re.compile(r"(?P<dia>\d{1,2})\s*(\"|”|″|“)", re.I)
 # Enhanced to catch D.I.P., DUCTILE IRON, etc.
 MATERIAL_RE = re.compile(r"\b(PVC|DIP|D\.I\.P\.?|DUCTILE\s*IRON|RCP|HDPE)\b", re.I)
 SLOPE_RE = re.compile(r"@\s*(?P<slope>\d+(?:\.\d+)?)%", re.I)
@@ -25,7 +25,7 @@ def _normalize_material(token: str) -> str:
     t = (token or '').upper().replace('.', '').replace(' ', '')
     if t in {"DIP", "DUCTILEIRON", "DUCTILEIRONPIPE", "D1P", "D|P", "DIPPIPE", "SIP"}:  # treat SIP as DIP OCR slip
         return "DIP"
-    if t in {"PVC"}:
+    if t in {"PVC", "PVC", "PVC,", "PVC=", "PVG", "PYC"}:
         return "PVC"
     if t in {"RCP"}:
         return "RCP"
