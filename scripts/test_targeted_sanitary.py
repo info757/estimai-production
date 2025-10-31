@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from app.vision import UniversalVisionAgent
 from app.vision.vector_extract import extract_profile_runs_from_text
-from app.vision.ocr_extract import ocr_profile_runs
+from app.vision.ocr_extract import ocr_profile_runs_strict_segments
 
 # Configure logging
 logging.basicConfig(
@@ -208,26 +208,40 @@ async def run_targeted_sanitary():
 
     # Step 4: Vector-first parse (authoritative numbers)
     vec_runs = extract_profile_runs_from_text(str(pdf_path), target_page)
+    logger.info(f"Vector extraction found {len(vec_runs)} runs")
+    
+    # Always run OCR as cross-check, not just when vector is empty
+    ocr_runs = []
+    try:
+        # Use strict segments to focus on per-segment callouts
+        ocr_runs = ocr_profile_runs_strict_segments(str(pdf_path), target_page, dpi=450)
+        logger.info(f"OCR extraction found {len(ocr_runs)} runs")
+    except Exception as e:
+        logger.warning(f"OCR fallback failed: {e}")
+    
     # Replace lengths in parsed aggregation where available
     parsed = parse_and_aggregate_sanitary(results["markdown"])
-    # Recompute aggregates from vector runs for sanitary only (8" PVC of interest)
+    
+    # Recompute aggregates from vector runs for 8" PVC and 8" DIP
     extracted_8_pvc_vector = 0.0
+    extracted_8_dip_vector = 0.0
     for vr in vec_runs:
-        if vr.length_ft and vr.material == 'PVC' and (vr.diameter_text or '').startswith('8'):
-            extracted_8_pvc_vector += vr.length_ft
+        if vr.length_ft and (vr.diameter_text or '').startswith('8'):
+            if vr.material == 'PVC':
+                extracted_8_pvc_vector += vr.length_ft
+            elif vr.material == 'DIP':
+                extracted_8_dip_vector += vr.length_ft
 
-    # If vector text yielded no runs, fallback to OCR of callouts
-    ocr_runs = []
-    if not vec_runs:
-        try:
-            ocr_runs = ocr_profile_runs(str(pdf_path), target_page, dpi=450)
-        except Exception as e:
-            logger.warning(f"OCR fallback failed: {e}")
-
+    # Aggregate from OCR runs
     extracted_8_pvc_ocr = 0.0
+    extracted_8_dip_ocr = 0.0
     for r in ocr_runs:
-        if r.get('length_ft') and (r.get('material') or '') == 'PVC' and (r.get('diameter_text') or '').startswith('8'):
-            extracted_8_pvc_ocr += float(r['length_ft'])
+        if r.get('length_ft') and (r.get('diameter_text') or '').startswith('8'):
+            mat = (r.get('material') or '').upper()
+            if mat == 'PVC':
+                extracted_8_pvc_ocr += float(r['length_ft'])
+            elif mat == 'DIP':
+                extracted_8_dip_ocr += float(r['length_ft'])
 
     # Ground truth local comparison (NO LLM exposure)
     gt_8_pvc_total = None
@@ -260,21 +274,42 @@ async def run_targeted_sanitary():
     for (diam, mat), vals in parsed['aggregates'].items():
         logger.info(f"  - {diam} {mat}: total {vals['total_lf']:.2f} LF across {vals['count']} runs")
 
+    # Ground truth for DIP
+    gt_8_dip_total = None
+    try:
+        with open(gt_json_path, 'r') as f:
+            gt = json.load(f)
+        for p in gt.get('expected_pipes', []):
+            if str(p.get('diameter_in')) == '8' and (p.get('material') or '').upper() == 'DIP' and (p.get('discipline') or '').lower() == 'sanitary':
+                gt_8_dip_total = float(p.get('length_ft') or 0)
+                break
+    except Exception:
+        pass
+
     if gt_8_pvc_total is not None:
         logger.info(f"\n8\" PVC total LF (vector): {extracted_8_pvc_vector:.2f}")
         logger.info(f"8\" PVC total LF (OCR): {extracted_8_pvc_ocr:.2f}")
         logger.info(f"8\" PVC total LF (LLM parse): {extracted_8_pvc_llm:.2f}")
         logger.info(f"8\" PVC total LF (ground truth): {gt_8_pvc_total:.2f}")
+    
+    if gt_8_dip_total is not None:
+        logger.info(f"\n8\" DIP total LF (vector): {extracted_8_dip_vector:.2f}")
+        logger.info(f"8\" DIP total LF (OCR): {extracted_8_dip_ocr:.2f}")
+        logger.info(f"8\" DIP total LF (ground truth): {gt_8_dip_total:.2f}")
+        logger.info(f"8\" DIP target segments: 26 LF + 151 LF = 177 LF")
 
-    # Print vector runs for transparency
+    # Print vector runs for transparency, highlighting DIP
     if vec_runs:
         logger.info("\nVector-detected runs (sanitary candidates):")
         for i, vr in enumerate(vec_runs, 1):
-            logger.info(f"  {i}. {vr.raw}  [len={vr.length_text}] [dia={vr.diameter_text}] [mat={vr.material}] [slope={vr.slope_text}]")
+            marker = " ⭐ DIP" if vr.material == 'DIP' else ""
+            logger.info(f"  {i}. {vr.raw}  [len={vr.length_text}] [dia={vr.diameter_text}] [mat={vr.material}]{marker} [slope={vr.slope_text}]")
     if ocr_runs:
         logger.info("\nOCR-detected runs (sanitary candidates):")
         for i, r in enumerate(ocr_runs, 1):
-            logger.info(f"  {i}. {r['raw']}  [len={r['length_text']}] [dia={r['diameter_text']}] [mat={r['material']}] [slope={r['slope_text']}]")
+            mat = r.get('material', '')
+            marker = " ⭐ DIP" if mat == 'DIP' else ""
+            logger.info(f"  {i}. {r['raw']}  [len={r['length_text']}] [dia={r['diameter_text']}] [mat={mat}]{marker} [slope={r['slope_text']}]")
 
 
 if __name__ == "__main__":

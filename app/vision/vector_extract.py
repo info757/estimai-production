@@ -21,7 +21,26 @@ import fitz  # PyMuPDF
 DIAMETER_RE = re.compile(r"(?P<dia>\d{1,2})\s*\"", re.I)
 LENGTH_RE = re.compile(r"(?P<len>\d+(?:\.\d+)?)\s*LF\b", re.I)
 SLOPE_RE = re.compile(r"@\s*(?P<slope>\d+(?:\.\d+)?)%", re.I)
-MATERIAL_RE = re.compile(r"\b(PVC|DIP|RCP|HDPE)\b", re.I)
+# Enhanced material regex to catch D.I.P., DUCTILE IRON, etc.
+MATERIAL_RE = re.compile(r"\b(PVC|DIP|D\.I\.P\.?|DUCTILE\s*IRON|RCP|HDPE)\b", re.I)
+
+
+def _normalize_material(token: str) -> str:
+    """Normalize material tokens, handling OCR slips and abbreviations."""
+    if not token:
+        return None
+    t = token.upper().replace('.', '').replace(' ', '').replace('-', '')
+    # DIP variations
+    if t in {"DIP", "DIP", "DUCTILEIRON", "DUCTILEIRONPIPE", "D1P", "D|P", "DIPPIPE", "SIP", "DI"}:
+        return "DIP"
+    # Other materials
+    if t in {"PVC"}:
+        return "PVC"
+    if t in {"RCP", "RCPP"}:
+        return "RCP"
+    if t in {"HDPE"}:
+        return "HDPE"
+    return token.upper()
 
 
 @dataclass
@@ -80,8 +99,14 @@ def extract_profile_runs_from_text(pdf_path: str, page_number_1_indexed: int) ->
             except Exception:
                 length_ft = None
             diameter_text = m_dia.group(0) if m_dia else None
-            material = m_mat.group(1).upper() if m_mat else None
+            # Normalize material to handle D.I.P., DUCTILE IRON, etc.
+            material_raw = m_mat.group(1) if m_mat else None
+            material = _normalize_material(material_raw) if material_raw else None
             slope_text = m_slope.group(0) if m_slope else None
+            
+            # Also check for DIP patterns if regex didn't match (e.g., "DUCTILE IRON" in text)
+            if not material and "DUCTILE" in text.upper() and "IRON" in text.upper():
+                material = "DIP"
 
             runs.append(VectorRun(
                 raw=text,

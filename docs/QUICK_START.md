@@ -233,3 +233,4 @@ For issues or questions:
 - Review `prompts/firm_specific_examples.py` for example patterns
 - Examine `app/vision/universal_agent.py` for implementation details
 
+

@@ -25,6 +25,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from pdf2image import convert_from_path
 from PIL import Image
 import io
+import fitz  # PyMuPDF for precise region cropping
 
 # Import RAG and prompts
 from app.rag.advanced_retriever import AdvancedRetriever
@@ -168,10 +169,57 @@ class UniversalVisionAgent:
             }
         }
     
+    def _crop_pdf_region(
+        self,
+        pdf_path: str,
+        page_num: int,
+        bbox: tuple,
+        zoom_dpi: int = 300
+    ) -> Optional[str]:
+        """
+        Crop a specific region from a PDF page and return as base64 image.
+        Since PDFs are vectorized, zooming maintains clarity.
+        
+        Args:
+            pdf_path: Path to PDF
+            page_num: 1-indexed page number
+            bbox: (x0, y0, x1, y1) bounding box in PDF points (72 DPI)
+            zoom_dpi: DPI to render at (higher = more zoom/clarity)
+            
+        Returns:
+            Base64-encoded image string or None
+        """
+        try:
+            doc = fitz.open(pdf_path)
+            page = doc.load_page(page_num - 1)  # 0-indexed
+            
+            # Create a matrix to render at higher DPI
+            zoom = zoom_dpi / 72.0  # Convert DPI to zoom factor
+            mat = fitz.Matrix(zoom, zoom)
+            
+            # Adjust bbox for zoom
+            rect = fitz.Rect(bbox)
+            
+            # Render the region
+            pix = page.get_pixmap(matrix=mat, clip=rect)
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            
+            # Convert to base64
+            buffer = io.BytesIO()
+            img.save(buffer, format="PNG")
+            image_b64 = base64.b64encode(buffer.getvalue()).decode('utf-8')
+            
+            doc.close()
+            return image_b64
+        except Exception as e:
+            logger.warning(f"Failed to crop PDF region: {e}")
+            return None
+
     async def _load_pdf_pages(
         self,
         pdf_path: str,
-        page_range: Optional[List[int]] = None
+        page_range: Optional[List[int]] = None,
+        dpi: int = 150
     ) -> List[Dict[str, Any]]:
         """
         Load PDF pages as images.
@@ -183,7 +231,7 @@ class UniversalVisionAgent:
         Returns:
             List of dicts with page_num and image_b64
         """
-        pages = convert_from_path(pdf_path, dpi=150)
+        pages = convert_from_path(pdf_path, dpi=dpi)
         
         pages_data = []
         for i, page_img in enumerate(pages):
@@ -200,7 +248,8 @@ class UniversalVisionAgent:
             
             pages_data.append({
                 "page_num": page_num,
-                "image_b64": image_b64
+                "image_b64": image_b64,
+                "pdf_path": pdf_path  # Store for later high-DPI reloads
             })
         
         return pages_data
@@ -271,8 +320,34 @@ Return ONLY the firm name, nothing else."""
         
         # Pass 2: Section extractions
         section_extractions = []
+        pdf_path = page_data.get("pdf_path")  # Need to pass this through
+        
         for section_desc in sections:
             logger.info(f"  Pass 2: Extracting {section_desc}")
+            
+            # Determine if this section needs higher resolution
+            # Profile sections, callouts, and detailed views benefit from zoom
+            # Also check for "grading" which often contains profile views
+            section_lower = section_desc.lower()
+            needs_zoom = any(keyword in section_lower for keyword in [
+                "profile", "callout", "detail", "legend", "table", "note", "grading"
+            ])
+            
+            # Profile sections need the highest resolution for reading callouts
+            is_profile = "profile" in section_lower
+            
+            # Use higher DPI image for sections that need zoom (vector PDFs stay sharp)
+            section_image_b64 = page_data["image_b64"]
+            if needs_zoom:
+                # Profile sections need highest resolution to read small callout text like "DIP", "PVC"
+                zoom_dpi = 500 if is_profile else 400
+                logger.info(f"  Using higher resolution ({zoom_dpi} DPI) for better text clarity")
+                # Reload page at higher DPI for this section
+                high_dpi_pages = convert_from_path(pdf_path, dpi=zoom_dpi, first_page=page_num, last_page=page_num)
+                if high_dpi_pages:
+                    buffer = io.BytesIO()
+                    high_dpi_pages[0].save(buffer, format="PNG")
+                    section_image_b64 = base64.b64encode(buffer.getvalue()).decode('utf-8')
             
             # Get RAG context for this section
             rag_context = await self._get_rag_context(section_desc, firm)
@@ -287,7 +362,7 @@ Return ONLY the firm name, nothing else."""
             )
             
             section_markdown = await self._call_vision_llm(
-                image_b64=page_data["image_b64"],
+                image_b64=section_image_b64,
                 system_prompt="You are a construction data extractor analyzing specific sections.",
                 user_prompt=section_prompt
             )

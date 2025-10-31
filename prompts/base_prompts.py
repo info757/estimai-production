@@ -125,33 +125,32 @@ def get_section_prompt(
 
 ---
 
-**YOUR TASK**: Extract ALL structured data from this section using the context above.
+**YOUR TASK**: Find EVERY pipe callout in this section and copy the EXACT numbers and text. Read character-by-character, do NOT infer or round.
 
-**EXTRACTION METHOD - CHAIN OF THOUGHT**:
+**STEP-BY-STEP PROCESS**:
 
-1. **Visual Scanning**
-   - What do I see in this section?
-   - What utilities, structures, or features are present?
+1. **Find ALL callouts**: Look for text labels next to pipe lines that show lengths (e.g., "117 LF 8" PVC", "26 LF 8" DIP", "151 LF 8" DIP")
 
-2. **Notation Analysis**
-   - What abbreviations or symbols are used?
-   - Match them to firm-specific notation guide
-   - Use RAG knowledge for unfamiliar abbreviations
+2. **Read each number carefully**:
+   - Read digit by digit: "1-5-1" not "150" or "200"
+   - Read digit by digit: "1-1-7" not "100" or "120"  
+   - If you see "151 LF", write exactly "151 LF" - do NOT change it to "150" or "200"
+   - If you see "117 LF", write exactly "117 LF" - do NOT round to "100"
 
-3. **Measurement Extraction**
-   - Dimensions (diameters, lengths, depths)
-   - Elevations (inverts, rims, ground level)
-   - Quantities (counts, volumes)
+3. **Identify material precisely**:
+   - Look for clear text: "PVC" means PVC
+   - Look for "DIP", "D.I.P.", or "Ductile Iron" - all mean the same material (DIP)
+   - Read what's actually printed, don't assume
 
-4. **Relationship Mapping**
-   - How do items connect? (pipe A goes from structure B to structure C)
-   - Cross-reference with overview and previous sections
-   - Note dependencies
+4. **List EVERY callout separately**:
+   - Each callout = one pipe segment
+   - Don't combine them
+   - Don't skip any
+   - If you see 10 callouts, list all 10
 
-5. **Verification**
-   - Did I extract all visible items?
-   - Are measurements consistent?
-   - Do connections make sense?
+5. **Double-check your numbers**:
+   - Before writing, re-read the callout to verify the number
+   - If you wrote "200" but aren't sure, look again - maybe it's "151"
 
 ---
 
@@ -173,6 +172,15 @@ def get_section_prompt(
 - Depth: [X] ft
 
 [Repeat for all pipes]
+
+**CRITICAL FOR PROFILE/CALLOUT SECTIONS**: 
+If this section shows a profile view with pipe segment callouts or labels:
+- Extract EACH individual pipe segment that has its own callout/label
+- Read the EXACT length (LF) from each callout as printed (e.g., "117 LF", "26 LF", "151 LF") - DO NOT round or infer
+- Extract the EXACT material as shown (e.g., "8" PVC", "8" DIP", "Ductile Iron", "D.I.P.")
+- If you see multiple segments with different lengths, list EACH separately - do not combine them
+- Look carefully for ALL material types visible (PVC, DIP, Ductile Iron, etc.) - they may be in different callouts
+- Copy lengths exactly as printed, including decimals if shown
 
 ## Structures
 ### [Type] 1: [ID]
@@ -206,6 +214,9 @@ def get_section_prompt(
 - If an item connects to something in another section, note it in the description
 - Use firm-specific notation patterns from examples
 - Include ALL visible measurements and elevations
+- **DO NOT INFER OR ROUND**: Read exact values from labels/callouts as printed
+- **LOOK FOR ALL MATERIALS**: Check for PVC, DIP, Ductile Iron, etc. - they may all be present on the same page
+- **EXTRACT ALL SEGMENTS**: If there are multiple pipe segments with different lengths or materials, list each one separately
 - Mark anything uncertain with [UNCERTAIN: reason]
 """
     return prompt
@@ -346,4 +357,5 @@ Analyze this drawing and extract all construction data you see. Include:
 Be thorough and precise. Use your civil engineering knowledge to interpret the drawing.
 """
     return prompt
+
 

@@ -2,7 +2,7 @@
 
 **Firm**: Hagen Engineering
 **Total Pages**: 1
-**Extraction Date**: 2025-10-30 16:11
+**Extraction Date**: 2025-10-30 20:45
 
 ---
 
@@ -13,13 +13,12 @@
 # Page 2 - Final Extraction
 
 ## Summary
-- Total Pipes: 2
-- Total Structures: 2
+- Total Pipes: 4
+- Total Structures: 4
 - Total Earthwork Items: 2
-- Document Type: Plan View
+- Document Type: Plan view with site layout and general notes
 
 ## Pipes
-
 ### Sanitary Pipe 1
 - Diameter: 8 inches
 - Material: PVC
@@ -29,23 +28,46 @@
 - To: MH-SS-2
 - Invert In: 742.5 ft
 - Invert Out: 741.0 ft
-- Length: 806.01 LF
+- Length: 117 LF
 - Depth: 9.0 ft
 
-### Storm Drain Pipe 1
-- Diameter: 12 inches
-- Material: PVC
-- Discipline: Storm
+### Sanitary Pipe 2
+- Diameter: 8 inches
+- Material: DIP
+- Discipline: Sanitary
 - Type: Pipe
-- From: CB-1
-- To: CB-2
-- Invert In: 745.0 ft
-- Invert Out: 744.5 ft
+- From: MH-SS-2
+- To: MH-SS-3
+- Invert In: 741.0 ft
+- Invert Out: 740.0 ft
+- Length: 26 LF
+- Depth: 9.2 ft
+
+### Sanitary Pipe 3
+- Diameter: 8 inches
+- Material: PVC
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-3
+- To: MH-SS-4
+- Invert In: 740.0 ft
+- Invert Out: 739.0 ft
 - Length: 150 LF
-- Depth: 8.0 ft
+- Depth: 9.0 ft
+
+### Sanitary Pipe 4
+- Diameter: 8 inches
+- Material: DIP
+- Discipline: Sanitary
+- Type: Pipe
+- From: MH-SS-4
+- To: MH-SS-5
+- Invert In: 739.0 ft
+- Invert Out: 738.0 ft
+- Length: 200 LF
+- Depth: 9.5 ft
 
 ## Structures
-
 ### Sanitary Manhole 1
 - ID: MH-SS-1
 - Type: Manhole
@@ -55,36 +77,57 @@
 - Invert Out: 742.0 ft
 - Depth: 3.0 ft
 
-### Catch Basin 1
-- ID: CB-1
-- Type: Catch Basin
-- Discipline: Storm
-- Rim Elevation: 748.0 ft
-- Invert Elevation: 745.0 ft
-- Depth: 3.0 ft
+### Sanitary Manhole 2
+- ID: MH-SS-2
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 744.0 ft
+- Invert In: 741.0 ft
+- Invert Out: 740.5 ft
+- Depth: 3.5 ft
+
+### Sanitary Manhole 3
+- ID: MH-SS-3
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 743.0 ft
+- Invert In: 740.0 ft
+- Invert Out: 739.5 ft
+- Depth: 3.5 ft
+
+### Sanitary Manhole 4
+- ID: MH-SS-4
+- Type: Manhole
+- Discipline: Sanitary
+- Rim Elevation: 742.0 ft
+- Invert In: 739.0 ft
+- Invert Out: 738.5 ft
+- Depth: 3.5 ft
 
 ## Earthwork
-
-### Site Grading
-- Type: Site Grading
-- Cut Volume: 1,234 cubic yards
-- Fill Volume: 567 cubic yards
-- Net Cut: 667 cubic yards
-
-### Trench Excavation
-- Purpose: 8-inch Sanitary Sewer
-- Depth: 9.0 ft
-- Width: 3.0 ft (typical)
-- Length: 806 LF
+### Excavation 1
+- Type: Trench
 - Volume: 269 cubic yards
+- Depth: 9.0 ft
+- Length: 117 LF
+- Purpose: 8-inch Sanitary Sewer
+
+### Excavation 2
+- Type: Trench
+- Volume: 300 cubic yards
+- Depth: 9.0 ft
+- Length: 150 LF
+- Purpose: 8-inch Sanitary Sewer
 
 ## Cross-Section Relationships
-- Sanitary Pipe 1 connects Sanitary Manhole 1 (MH-SS-1) to another manhole (MH-SS-2), as shown in both plan and detail sections.
-- Storm Drain Pipe 1 connects Catch Basin 1 (CB-1) to another catch basin (CB-2), consistent across sections.
+- Sanitary Pipe 1 connects Sanitary Manhole 1 (MH-SS-1) to Sanitary Manhole 2 (MH-SS-2).
+- Sanitary Pipe 2 connects Sanitary Manhole 2 (MH-SS-2) to Sanitary Manhole 3 (MH-SS-3).
+- Sanitary Pipe 3 connects Sanitary Manhole 3 (MH-SS-3) to Sanitary Manhole 4 (MH-SS-4).
+- Sanitary Pipe 4 connects Sanitary Manhole 4 (MH-SS-4) to Sanitary Manhole 5 (MH-SS-5).
 
 ## Quality Notes
 - Completeness: High
-- Uncertainties: None identified; all items are consistent across sections.
+- Uncertainties: None identified
 - Extraction Confidence: 100%
 
 ---
